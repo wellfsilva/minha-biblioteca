@@ -1,0 +1,25 @@
+body {
+  background: #141414;
+  color: white;
+  font-family: Arial;
+  padding: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  transition: transform .2s ease;
+}
+
+.card:hover {
+  transform: scale(1.08);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
