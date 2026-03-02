@@ -18,7 +18,7 @@ function render(lista) {
     card.className = "card";
 
     card.innerHTML = `
-      <img src="${jogo.coverUrl || 'https://via.placeholder.com/300x400?text=Sem+Capa'}">
+      <img src="${jogo.coverUrl || 'https://placehold.co/600x400?text=Sem+Capa'}">
       <p>${jogo.Nome}</p>
     `;
 
