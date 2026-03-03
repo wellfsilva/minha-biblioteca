@@ -26,6 +26,32 @@ function render(lista) {
   });
 }
 
+function renderSourceFilters(games) {
+  const sourceContainer = document.getElementById("source-filters");
+
+  // Pega todas as fontes únicas
+  const sources = [...new Set(games.map(game => game.Source))].sort();
+
+  sourceContainer.innerHTML = '';
+
+  sources.forEach(source => {
+    const label = document.createElement("label");
+    label.style.marginRight = "10px";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = source;
+    checkbox.classList.add("source-checkbox");
+
+    checkbox.addEventListener("change", renderGames);
+
+    label.appendChild(checkbox);
+    label.append(` ${source}`);
+
+    sourceContainer.appendChild(label);
+  });
+}
+
 search.addEventListener("input", () => {
   const termo = search.value.toLowerCase();
   const filtrado = jogos.filter(j =>
