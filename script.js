@@ -52,6 +52,8 @@ function renderSourceFilters(games) {
   });
 }
 
+
+
 search.addEventListener("input", () => {
   const termo = search.value.toLowerCase();
   const filtrado = jogos.filter(j =>
