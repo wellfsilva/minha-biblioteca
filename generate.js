@@ -53,8 +53,8 @@ async function main() {
     finalGames.push({
       Nome: game.Nome,
       Plataforma: game.Plataforma,
-      Genero: game.Gênero,
-      Fonte: game.Fonte,
+      Genero: game.Gêneros,
+      Fonte: game.Fontes,
       coverUrl
     });
   }
