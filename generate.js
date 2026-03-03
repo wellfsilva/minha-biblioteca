@@ -59,7 +59,7 @@ async function main() {
     });
   }
 
-  fs.writeFileSync("./public/games.json", JSON.stringify(finalGames, null, 2));
+  fs.writeFileSync("./games.json", JSON.stringify(finalGames, null, 2));
 
   console.log("✅ games.json atualizado com sucesso!");
 }
