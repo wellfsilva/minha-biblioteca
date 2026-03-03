@@ -23,3 +23,73 @@ body {
   width: 100%;
   border-radius: 6px;
 }
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#select-all-sources {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.source-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.store-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.store-option input {
+  display: none;
+}
+
+.store-tag {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.8rem;
+  transition: 0.2s;
+}
+
+.store-tag img {
+  width: 14px;
+  height: 14px;
+}
+
+.store-option input:checked + .store-tag {
+  transform: scale(1.05);
+  box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+
+.store-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.store-badge img {
+  width: 14px;
+  height: 14px;
+}
