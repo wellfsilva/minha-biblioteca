@@ -200,13 +200,13 @@
   {
     "Nome": "Anno 1404 - History Edition",
     "Genero": "SimulatorStrategy",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2coe.jpg"
   },
   {
     "Nome": "AO International Tennis",
     "Genero": "Sport",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lke.jpg"
   },
   {
@@ -254,43 +254,43 @@
   {
     "Nome": "Assassin’s Creed Chronicles India",
     "Genero": "AdventurePlatform",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy4.jpg"
   },
   {
     "Nome": "Assassin’s Creed Chronicles Russia",
     "Genero": "AdventurePlatform",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy5.jpg"
   },
   {
     "Nome": "Assassin’s Creed IV Black Flag",
     "Genero": "AdventurePlatform",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tx9.jpg"
   },
   {
     "Nome": "Assassin's Creed Chronicles China",
     "Genero": "AdventurePlatformRole-playing (RPG)",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy6.jpg"
   },
   {
     "Nome": "Assassin's Creed Origins",
     "Genero": "AdventureRole-playing (RPG)",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbe.jpg"
   },
   {
     "Nome": "Assassin's Creed Rogue",
     "Genero": "AdventureRole-playing (RPG)",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xir.jpg"
   },
   {
     "Nome": "Assassin's Creed Syndicate",
     "Genero": "Adventure",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xis.jpg"
   },
   {
@@ -344,25 +344,25 @@
   {
     "Nome": "Battlefield 1",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ab9.jpg"
   },
   {
     "Nome": "Battlefield 3",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
     "Nome": "Battlefield 4",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmf.jpg"
   },
   {
     "Nome": "Battlefield V",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbv.jpg"
   },
   {
@@ -578,7 +578,7 @@
   {
     "Nome": "Borderlands: The Pre-Sequel",
     "Genero": "Role-playing (RPG)Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -818,7 +818,7 @@
   {
     "Nome": "Counter-Strike",
     "Genero": "Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co72lk.jpg"
   },
   {
@@ -830,13 +830,13 @@
   {
     "Nome": "Counter-Strike: Condition Zero",
     "Genero": "Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx3.jpg"
   },
   {
     "Nome": "Counter-Strike: Condition Zero Deleted Scenes",
     "Genero": "Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -848,13 +848,13 @@
   {
     "Nome": "Crash Bandicoot N. Sane Trilogy",
     "Genero": "Platform",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg"
   },
   {
     "Nome": "Crash Team Racing Nitro-Fueled",
     "Genero": "ArcadeRacing",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p89.jpg"
   },
   {
@@ -890,7 +890,7 @@
   {
     "Nome": "Cyberpunk 2077",
     "Genero": "AdventureRole-playing (RPG)Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -938,7 +938,7 @@
   {
     "Nome": "DARK SOULS III",
     "Genero": "AdventureRole-playing (RPG)",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -962,7 +962,7 @@
   {
     "Nome": "Dead by Daylight",
     "Genero": "Strategy",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -986,7 +986,7 @@
   {
     "Nome": "Dead Space 2",
     "Genero": "AdventureShooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co715m.jpg"
   },
   {
@@ -1148,7 +1148,7 @@
   {
     "Nome": "DiRT 4",
     "Genero": "RacingSimulatorSport",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1srr.jpg"
   },
   {
@@ -1208,13 +1208,13 @@
   {
     "Nome": "Donkey Kong Country Tropical Freeze",
     "Genero": "Platform",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pmi.jpg"
   },
   {
     "Nome": "Don't Starve Together",
     "Genero": "AdventureIndieSimulatorStrategy",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqp.jpg"
   },
   {
@@ -1250,13 +1250,13 @@
   {
     "Nome": "Dragon Age: Inquisition",
     "Genero": "AdventureRole-playing (RPG)Tactical",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
     "Nome": "Dragon Age: Inquisition - Game of the Year Edition",
     "Genero": "AdventureRole-playing (RPG)Tactical",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw0.jpg"
   },
   {
@@ -1298,7 +1298,7 @@
   {
     "Nome": "Dying Light",
     "Genero": "AdventureRole-playing (RPG)Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -1328,7 +1328,7 @@
   {
     "Nome": "eFootball PES 2020",
     "Genero": "SimulatorSport",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5tuq.jpg"
   },
   {
@@ -1418,7 +1418,7 @@
   {
     "Nome": "Escape Simulator",
     "Genero": "AdventureIndiePoint-and-clickPuzzleSimulator",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -1592,25 +1592,25 @@
   {
     "Nome": "Far Cry 3",
     "Genero": "AdventureShooter",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Far Cry 4",
     "Genero": "AdventureShooterTactical",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Far Cry 5",
     "Genero": "AdventureShooter",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Far Cry 6",
     "Genero": "AdventureShooter",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
@@ -1652,7 +1652,7 @@
   {
     "Nome": "Fear the Night",
     "Genero": "AdventureRole-playing (RPG)ShooterSimulator",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -1724,7 +1724,7 @@
   {
     "Nome": "For Honor",
     "Genero": "FightingHack and slash/Beat 'em up",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4orw.jpg"
   },
   {
@@ -1946,7 +1946,7 @@
   {
     "Nome": "GRID Legends",
     "Genero": "RacingSimulatorSport",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -2156,7 +2156,7 @@
   {
     "Nome": "Hollow Knight",
     "Genero": "AdventureIndiePlatform",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": null
   },
   {
@@ -2192,7 +2192,7 @@
   {
     "Nome": "How to Survive 2",
     "Genero": "AdventureRole-playing (RPG)",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -2228,7 +2228,7 @@
   {
     "Nome": "Hyper Scape",
     "Genero": "Shooter",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
@@ -2246,7 +2246,7 @@
   {
     "Nome": "Immortals Fenyx Rising",
     "Genero": "AdventurePuzzleRole-playing (RPG)",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
@@ -2282,7 +2282,7 @@
   {
     "Nome": "Injustice: Gods Among Us Ultimate Edition",
     "Genero": "Fighting",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -2330,7 +2330,7 @@
   {
     "Nome": "It Takes Two",
     "Genero": "AdventurePlatformPuzzle",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg"
   },
   {
@@ -2648,7 +2648,7 @@
   {
     "Nome": "Madden NFL 22",
     "Genero": "SimulatorSportStrategy",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -2714,7 +2714,7 @@
   {
     "Nome": "Mario Kart 8 Deluxe",
     "Genero": "ArcadeRacing",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ydc.jpg"
   },
   {
@@ -2738,7 +2738,7 @@
   {
     "Nome": "Mass Effect Legendary Edition",
     "Genero": "AdventureRole-playing (RPG)ShooterStrategy",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -2864,7 +2864,7 @@
   {
     "Nome": "Metroid Dread",
     "Genero": "AdventurePlatformShooter",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": null
   },
   {
@@ -2942,7 +2942,7 @@
   {
     "Nome": "Mortal Kombat X",
     "Genero": "Fighting",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3020,13 +3020,13 @@
   {
     "Nome": "Need for Speed Heat",
     "Genero": "AdventureRacingSport",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j7z.jpg"
   },
   {
     "Nome": "Need for Speed Hot Pursuit Remastered",
     "Genero": "Racing",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -3086,7 +3086,7 @@
   {
     "Nome": "Nubs!",
     "Genero": "Indie",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3170,13 +3170,13 @@
   {
     "Nome": "Outlast",
     "Genero": "AdventureIndie",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Overcooked! 2",
     "Genero": "ArcadeIndieSimulatorStrategyTactical",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3194,7 +3194,7 @@
   {
     "Nome": "Overcooked! All You Can Eat",
     "Genero": "IndieSimulatorStrategy",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3230,7 +3230,7 @@
   {
     "Nome": "PAYDAY 2",
     "Genero": "Role-playing (RPG)ShooterTactical",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3248,7 +3248,7 @@
   {
     "Nome": "Phasmophobia",
     "Genero": "IndiePuzzleTactical",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamcz.jpg"
   },
   {
@@ -3290,7 +3290,7 @@
   {
     "Nome": "Plants vs Zombies: Battle for Neighborville",
     "Genero": "",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3isd.jpg"
   },
   {
@@ -3356,7 +3356,7 @@
   {
     "Nome": "Prince of Persia: The Lost Crown",
     "Genero": "AdventurePlatform",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
@@ -3380,7 +3380,7 @@
   {
     "Nome": "Pummel Party",
     "Genero": "ArcadeCard & Board GameIndie",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3470,19 +3470,19 @@
   {
     "Nome": "RAYMAN LEGENDS Demo",
     "Genero": "",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Rayman Origins",
     "Genero": "AdventurePlatform",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Rayman Raving Rabbids",
     "Genero": "",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
@@ -3542,79 +3542,79 @@
   {
     "Nome": "Resident Evil",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Resident Evil 0",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Resident Evil 2",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Resident Evil 3",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Resident Evil 4 (2005)",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Resident Evil 5",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vzi.jpg"
   },
   {
     "Nome": "Resident Evil 6",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Resident Evil 7 Biohazard",
     "Genero": "AdventurePuzzleShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0ry.jpg"
   },
   {
     "Nome": "Resident Evil Re:Verse",
     "Genero": "Shooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob2d2.jpg"
   },
   {
     "Nome": "RESIDENT EVIL RESISTANCE",
     "Genero": "",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22d8.jpg"
   },
   {
     "Nome": "Resident Evil Revelations",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zvu.jpg"
   },
   {
     "Nome": "Resident Evil Revelations 2",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co92d9.jpg"
   },
   {
     "Nome": "Resident Evil Village",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oyw.jpg"
   },
   {
@@ -3638,7 +3638,7 @@
   {
     "Nome": "Rise of the Tomb Raider",
     "Genero": "AdventureShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -3992,7 +3992,7 @@
   {
     "Nome": "Sniper Elite 3",
     "Genero": "AdventureShooterSimulatorTactical",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e40.jpg"
   },
   {
@@ -4064,7 +4064,7 @@
   {
     "Nome": "STAR WARS Battlefront II",
     "Genero": "AdventureShooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -4094,7 +4094,7 @@
   {
     "Nome": "STAR WARS Jedi: Fallen Order",
     "Genero": "Adventure",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -4136,7 +4136,7 @@
   {
     "Nome": "STAR WARS: Squadrons",
     "Genero": "ShooterSimulator",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -4154,7 +4154,7 @@
   {
     "Nome": "Starlink: Battle for Atlas",
     "Genero": "AdventureArcadeReal Time Strategy (RTS)Role-playing (RPG)ShooterSimulatorStrategy",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pm8.jpg"
   },
   {
@@ -4274,7 +4274,7 @@
   {
     "Nome": "Super Mario 3D World Bowsers Fury",
     "Genero": "AdventurePlatform",
-    "Fonte": "Nintendo Switch",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobb2d.jpg"
   },
   {
@@ -4478,7 +4478,7 @@
   {
     "Nome": "The Forest",
     "Genero": "AdventureIndiePuzzleSimulator",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ld1.jpg"
   },
   {
@@ -4592,7 +4592,7 @@
   {
     "Nome": "The Sims 4",
     "Genero": "Role-playing (RPG)Simulator",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
@@ -4700,37 +4700,37 @@
   {
     "Nome": "Tom Clancy's Ghost Recon",
     "Genero": "Shooter",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39y6.jpg"
   },
   {
     "Nome": "Tom Clancy's Splinter Cell",
     "Genero": "ShooterTactical",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Tom Clancy's Splinter Cell Blacklist",
     "Genero": "AdventureShooterTactical",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ygp.jpg"
   },
   {
     "Nome": "Tom Clancy's Splinter Cell Chaos Theory",
     "Genero": "ShooterTactical",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Tom Clancy's The Division",
     "Genero": "AdventureRole-playing (RPG)ShooterStrategyTactical",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yvf.jpg"
   },
   {
     "Nome": "Tom Clancy's The Division 2",
     "Genero": "AdventureRole-playing (RPG)ShooterTactical",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
@@ -4742,19 +4742,19 @@
   {
     "Nome": "Tom Clancy's The Division 2 PTS",
     "Genero": "",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": null
   },
   {
     "Nome": "Tom Clancy's The Division PTS",
     "Genero": "",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
     "Nome": "Tomb Raider",
     "Genero": "AdventurePlatformPuzzleShooter",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -4814,7 +4814,7 @@
   {
     "Nome": "Tools Up!",
     "Genero": "AdventureArcadeIndieSimulator",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
@@ -5096,7 +5096,7 @@
   {
     "Nome": "WATCH_DOGS 2",
     "Genero": "AdventureShooter",
-    "Fonte": "Ubisoft Connect",
+    "Fonte": "Ubisoft",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p3j.jpg"
   },
   {
@@ -5174,7 +5174,7 @@
   {
     "Nome": "Worms Armageddon",
     "Genero": "PlatformShooterStrategy",
-    "Fonte": "Steam Family Sharing",
+    "Fonte": "Steam Family",
     "coverUrl": null
   },
   {
