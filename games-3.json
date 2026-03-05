@@ -1,0 +1,5282 @@
+
+Compreendido. Realizei a mesclagem inversa: utilizei o arquivo que contém os metadados completos (**Gênero** e **Fonte**) como base e preenchi as lacunas de `coverUrl` utilizando as informações do segundo arquivo.
+
+Aqui está o arquivo completo e atualizado, mantendo todas as tags:
+
+```json
+[
+  {
+    "Nome": "12 is Better Than 6",
+    "Genero": "AdventureArcadeIndieShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9e3k.jpg"
+  },
+  {
+    "Nome": "20 Minutes Till Dawn",
+    "Genero": "AdventureArcadeIndieRole-playing (RPG)ShooterStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ti3.jpg"
+  },
+  {
+    "Nome": "8Doors: Arum's Afterlife Adventure",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hh3.jpg"
+  },
+  {
+    "Nome": "9 Years of Shadows",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2thu.jpg"
+  },
+  {
+    "Nome": "911 Operator",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gjv.jpg"
+  },
+  {
+    "Nome": "A Game Of Thrones: The Board Game Digital Edition",
+    "Genero": "Card & Board GameStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wl0.jpg"
+  },
+  {
+    "Nome": "A Plague Tale: Innocence",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lat.jpg"
+  },
+  {
+    "Nome": "A Plague Tale: Innocence",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lat.jpg"
+  },
+  {
+    "Nome": "A Way Out",
+    "Genero": "Adventure",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fc6.jpg"
+  },
+  {
+    "Nome": "Aerial_Knight's Never Yield",
+    "Genero": "AdventureArcadeIndieMusicPlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g4u.jpg"
+  },
+  {
+    "Nome": "Aerial_Knight's Never Yield",
+    "Genero": "AdventureArcadeIndieMusicPlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g4u.jpg"
+  },
+  {
+    "Nome": "Afterimage",
+    "Genero": "AdventureHack and slash/Beat 'em upIndiePlatformRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8o70.jpg"
+  },
+  {
+    "Nome": "Against All Odds",
+    "Genero": "IndiePlatformSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5jw1.jpg"
+  },
+  {
+    "Nome": "Agatha Knife",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wg4.jpg"
+  },
+  {
+    "Nome": "Aground",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k4j.jpg"
+  },
+  {
+    "Nome": "AK-xolotl: Together",
+    "Genero": "AdventureArcadeIndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9dtg.jpg"
+  },
+  {
+    "Nome": "Alba - A Wildlife Adventure",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3uyi.jpg"
+  },
+  {
+    "Nome": "Alex Kidd in Miracle World DX",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3c4f.jpg"
+  },
+  {
+    "Nome": "Alien Breed 2: Assault",
+    "Genero": "AdventureArcadeShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eh2.jpg"
+  },
+  {
+    "Nome": "Alien Breed 3: Descent",
+    "Genero": "AdventureArcadeShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eh3.jpg"
+  },
+  {
+    "Nome": "Alien Breed: Impact",
+    "Genero": "ArcadeShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c0t.jpg"
+  },
+  {
+    "Nome": "Alien: Isolation",
+    "Genero": "Adventure",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84mu.jpg"
+  },
+  {
+    "Nome": "Alien: Isolation - Last Survivor",
+    "Genero": "Adventure",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ycc.jpg"
+  },
+  {
+    "Nome": "Alone in the Dark 1",
+    "Genero": "Adventure",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82bd.jpg"
+  },
+  {
+    "Nome": "Alone in the Dark 2",
+    "Genero": "Adventure",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ole.jpg"
+  },
+  {
+    "Nome": "Alone in the Dark 3",
+    "Genero": "AdventurePuzzleRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82bg.jpg"
+  },
+  {
+    "Nome": "Alwa's Awakening",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zqw.jpg"
+  },
+  {
+    "Nome": "Amnesia:  The Dark Descent",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qq5.jpg"
+  },
+  {
+    "Nome": "Amnesia: A Machine for Pigs",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdf.jpg"
+  },
+  {
+    "Nome": "Amnesia: A Machine For Pigs",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdf.jpg"
+  },
+  {
+    "Nome": "Amnesia: Rebirth",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iuo.jpg"
+  },
+  {
+    "Nome": "Amnesia: The Bunker",
+    "Genero": "AdventureIndiePuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5us3.jpg"
+  },
+  {
+    "Nome": "Among Us",
+    "Genero": "IndieStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vdk.jpg"
+  },
+  {
+    "Nome": "Anno 1404 - History Edition",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2coe.jpg"
+  },
+  {
+    "Nome": "AO International Tennis",
+    "Genero": "Sport",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lke.jpg"
+  },
+  {
+    "Nome": "Arcade Paradise",
+    "Genero": "AdventureArcadeIndiePuzzleSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wvp.jpg"
+  },
+  {
+    "Nome": "Are You Smarter Than A 5th Grader",
+    "Genero": "Quiz/Trivia",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gk1.jpg"
+  },
+  {
+    "Nome": "ARK Fjordur",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "ARK: Survival Evolved",
+    "Genero": "AdventureIndieRole-playing (RPG)ShooterSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co493k.jpg"
+  },
+  {
+    "Nome": "art of rally",
+    "Genero": "ArcadeIndieRacingSimulatorSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gys.jpg"
+  },
+  {
+    "Nome": "As Far as the Eye",
+    "Genero": "IndieSimulatorStrategyTurn-based strategy (TBS)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g7d.jpg"
+  },
+  {
+    "Nome": "Ashworld",
+    "Genero": "AdventurePlatformRacingRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23o6.jpg"
+  },
+  {
+    "Nome": "Assassin’s Creed Chronicles India",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy4.jpg"
+  },
+  {
+    "Nome": "Assassin’s Creed Chronicles Russia",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy5.jpg"
+  },
+  {
+    "Nome": "Assassin’s Creed IV Black Flag",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tx9.jpg"
+  },
+  {
+    "Nome": "Assassin's Creed Chronicles China",
+    "Genero": "AdventurePlatformRole-playing (RPG)",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qy6.jpg"
+  },
+  {
+    "Nome": "Assassin's Creed Origins",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbe.jpg"
+  },
+  {
+    "Nome": "Assassin's Creed Rogue",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xir.jpg"
+  },
+  {
+    "Nome": "Assassin's Creed Syndicate",
+    "Genero": "Adventure",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xis.jpg"
+  },
+  {
+    "Nome": "Astro Duel 2",
+    "Genero": "ArcadeFightingIndiePlatformShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7rji.jpg"
+  },
+  {
+    "Nome": "Astrologaster",
+    "Genero": "AdventureIndieStrategyVisual Novel",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1i6a.jpg"
+  },
+  {
+    "Nome": "Autonauts",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ewv.jpg"
+  },
+  {
+    "Nome": "Banana Hell",
+    "Genero": "IndieStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k5o.jpg"
+  },
+  {
+    "Nome": "Banana Hell: Mountain of Madness",
+    "Genero": "IndiePlatformStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59j6.jpg"
+  },
+  {
+    "Nome": "Barro GT",
+    "Genero": "IndieRacing",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ho4.jpg"
+  },
+  {
+    "Nome": "Batman: Arkham Knight",
+    "Genero": "AdventureHack and slash/Beat 'em up",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fx3.jpg"
+  },
+  {
+    "Nome": "Batman: The Telltale Series",
+    "Genero": "AdventurePoint-and-clickRole-playing (RPG)Visual Novel",
+    "Fonte": "Amazon",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Battlefield 1",
+    "Genero": "Shooter",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ab9.jpg"
+  },
+  {
+    "Nome": "Battlefield 3",
+    "Genero": "Shooter",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbu.jpg"
+  },
+  {
+    "Nome": "Battlefield 4",
+    "Genero": "Shooter",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmf.jpg"
+  },
+  {
+    "Nome": "Battlefield V",
+    "Genero": "Shooter",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbv.jpg"
+  },
+  {
+    "Nome": "Beasts of Maravilla Island",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mq9.jpg"
+  },
+  {
+    "Nome": "BEAUTIFUL DESOLATION",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)Strategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zt4.jpg"
+  },
+  {
+    "Nome": "Beholder",
+    "Genero": "AdventureIndieRole-playing (RPG)SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/soouigj2n1ktbxdn1cfg.jpg"
+  },
+  {
+    "Nome": "Beholder 2",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28vf.jpg"
+  },
+  {
+    "Nome": "Beholder 2",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28vf.jpg"
+  },
+  {
+    "Nome": "Beholder 3",
+    "Genero": "AdventureIndiePoint-and-clickSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gly.jpg"
+  },
+  {
+    "Nome": "Berserk Boy",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p6p.jpg"
+  },
+  {
+    "Nome": "Betrayer",
+    "Genero": "AdventureIndieShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9l.jpg"
+  },
+  {
+    "Nome": "Beyond Blue",
+    "Genero": "AdventureIndieSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co292r.jpg"
+  },
+  {
+    "Nome": "BioShock",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3aet.jpg"
+  },
+  {
+    "Nome": "BioShock 2",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mlj.jpg"
+  },
+  {
+    "Nome": "BioShock 2 Remastered",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yw.jpg"
+  },
+  {
+    "Nome": "BioShock 2 Remastered",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yw.jpg"
+  },
+  {
+    "Nome": "BioShock Infinite Complete Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50k0.jpg"
+  },
+  {
+    "Nome": "BioShock Infinite: Complete Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50k0.jpg"
+  },
+  {
+    "Nome": "BioShock Remastered",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yu.jpg"
+  },
+  {
+    "Nome": "BioShock Remastered",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yu.jpg"
+  },
+  {
+    "Nome": "Biped",
+    "Genero": "AdventureArcadeIndiePlatformPuzzleSimulatorSportStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62i1.jpg"
+  },
+  {
+    "Nome": "Black Book",
+    "Genero": "AdventureCard & Board GameIndiePuzzleRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8vv5.jpg"
+  },
+  {
+    "Nome": "Black Desert",
+    "Genero": "AdventureHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coay9v.jpg"
+  },
+  {
+    "Nome": "Black Mesa",
+    "Genero": "AdventureIndiePlatformShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20n4.jpg"
+  },
+  {
+    "Nome": "Black Widow: Recharged",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3z5l.jpg"
+  },
+  {
+    "Nome": "Blacksad: Under the Skin",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61er.jpg"
+  },
+  {
+    "Nome": "Blade Assault",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6amm.jpg"
+  },
+  {
+    "Nome": "Blade of Darkness",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70tb.jpg"
+  },
+  {
+    "Nome": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+    "Genero": "AdventureArcadeIndiePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zba.jpg"
+  },
+  {
+    "Nome": "Blood West",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7plb.jpg"
+  },
+  {
+    "Nome": "Bloodstained: Ritual of the Night",
+    "Genero": "AdventurePlatformRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc4a.jpg"
+  },
+  {
+    "Nome": "Bloons TD 6",
+    "Genero": "StrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa90w.jpg"
+  },
+  {
+    "Nome": "Blue Fire",
+    "Genero": "AdventureHack and slash/Beat 'em upIndiePlatformRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4gki.jpg"
+  },
+  {
+    "Nome": "Bō: Path of the Teal Lotus",
+    "Genero": "AdventurePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co87pc.jpg"
+  },
+  {
+    "Nome": "Borderlands 2",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Borderlands 2",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Borderlands 3",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r3.jpg"
+  },
+  {
+    "Nome": "Borderlands: The Pre-Sequel",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Borderlands: The Pre-Sequel",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Botany Manor",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rg6.jpg"
+  },
+  {
+    "Nome": "Boxes: Lost Fragments",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6581.jpg"
+  },
+  {
+    "Nome": "Bramble The Mountain King",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6f01.jpg"
+  },
+  {
+    "Nome": "Breakout: Recharged",
+    "Genero": "ArcadePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4eas.jpg"
+  },
+  {
+    "Nome": "Breathedge",
+    "Genero": "AdventureIndieRole-playing (RPG)Simulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wvo.jpg"
+  },
+  {
+    "Nome": "Brigador: Up-Armored Edition",
+    "Genero": "IndieShooterStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6gpf.jpg"
+  },
+  {
+    "Nome": "Bro Falls: Ultimate Showdown",
+    "Genero": "IndieRacing",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bu6.jpg"
+  },
+  {
+    "Nome": "Brotato",
+    "Genero": "ArcadeFightingIndieRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaauv.jpg"
+  },
+  {
+    "Nome": "Brothers - A Tale of Two Sons",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rro.jpg"
+  },
+  {
+    "Nome": "Brothers: A Tale of Two Sons",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rro.jpg"
+  },
+  {
+    "Nome": "Bus Simulator 21 Next Stop",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa98x.jpg"
+  },
+  {
+    "Nome": "Bus Simulator 21: Next Stop",
+    "Genero": "Simulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa98x.jpg"
+  },
+  {
+    "Nome": "BZZZT",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70nh.jpg"
+  },
+  {
+    "Nome": "Call of Juarez Gunslinger",
+    "Genero": "AdventureArcadeShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coag64.jpg"
+  },
+  {
+    "Nome": "Call of Juarez: Bound in Blood",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pn0.jpg"
+  },
+  {
+    "Nome": "Call of the Sea",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ir4.jpg"
+  },
+  {
+    "Nome": "Call of the Wild: The Angler",
+    "Genero": "AdventureSimulatorSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w8a.jpg"
+  },
+  {
+    "Nome": "Capcom Arcade Stadium",
+    "Genero": "ArcadeFightingPlatformShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62wj.jpg"
+  },
+  {
+    "Nome": "Car Mechanic Simulator 2018",
+    "Genero": "RacingSimulator",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Castle on the Coast",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ibz.jpg"
+  },
+  {
+    "Nome": "Castlevania Anniversary Collection",
+    "Genero": "AdventureArcadeFightingPlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob8kz.jpg"
+  },
+  {
+    "Nome": "Cat Quest",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8cp4.jpg"
+  },
+  {
+    "Nome": "Cat Quest",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8cp4.jpg"
+  },
+  {
+    "Nome": "Cat Quest II",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r4f.jpg"
+  },
+  {
+    "Nome": "Cat Quest II",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r4f.jpg"
+  },
+  {
+    "Nome": "Cave Story+",
+    "Genero": "AdventureIndiePlatformShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o6b.jpg"
+  },
+  {
+    "Nome": "Caveblazers",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gb5.jpg"
+  },
+  {
+    "Nome": "Caverns of Mars Recharged",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co68sf.jpg"
+  },
+  {
+    "Nome": "Centipede Recharged",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3t2l.jpg"
+  },
+  {
+    "Nome": "Chessarama",
+    "Genero": "Card & Board GameIndiePuzzleStrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9o2q.jpg"
+  },
+  {
+    "Nome": "Chicken Police - Paint it RED!",
+    "Genero": "AdventureIndiePoint-and-clickPuzzleVisual Novel",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kga.jpg"
+  },
+  {
+    "Nome": "Chivalry 2",
+    "Genero": "FightingHack and slash/Beat 'em upIndiePlatformTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yqh.jpg"
+  },
+  {
+    "Nome": "Chivalry 2",
+    "Genero": "FightingHack and slash/Beat 'em upIndiePlatformTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yqh.jpg"
+  },
+  {
+    "Nome": "Cities Skylines",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yw7.jpg"
+  },
+  {
+    "Nome": "City of Brass",
+    "Genero": "AdventureIndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j7v.jpg"
+  },
+  {
+    "Nome": "Company of Heroes 2",
+    "Genero": "Real Time Strategy (RTS)SimulatorStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaayw.jpg"
+  },
+  {
+    "Nome": "Control",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob5pu.jpg"
+  },
+  {
+    "Nome": "Control Ultimate Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ewb.jpg"
+  },
+  {
+    "Nome": "Cook, Serve, Delicious! 3?!",
+    "Genero": "ArcadeIndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wbk.jpg"
+  },
+  {
+    "Nome": "Counter-Strike",
+    "Genero": "Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co72lk.jpg"
+  },
+  {
+    "Nome": "Counter-Strike 2",
+    "Genero": "ShooterTactical",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaczd.jpg"
+  },
+  {
+    "Nome": "Counter-Strike: Condition Zero",
+    "Genero": "Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx3.jpg"
+  },
+  {
+    "Nome": "Counter-Strike: Condition Zero Deleted Scenes",
+    "Genero": "Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx4.jpg"
+  },
+  {
+    "Nome": "Crash Bandicoot N Sane Trilogy",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg"
+  },
+  {
+    "Nome": "Crash Bandicoot N. Sane Trilogy",
+    "Genero": "Platform",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg"
+  },
+  {
+    "Nome": "Crash Team Racing Nitro-Fueled",
+    "Genero": "ArcadeRacing",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p89.jpg"
+  },
+  {
+    "Nome": "Crime Boss: Rockay City",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6mey.jpg"
+  },
+  {
+    "Nome": "CRYPTARK",
+    "Genero": "AdventureIndieShooterStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23nb.jpg"
+  },
+  {
+    "Nome": "Cursed to Golf",
+    "Genero": "AdventureArcadeCard & Board GameIndiePuzzleSport",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ki3.jpg"
+  },
+  {
+    "Nome": "Cursed to Golf",
+    "Genero": "AdventureArcadeCard & Board GameIndiePuzzleSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ki3.jpg"
+  },
+  {
+    "Nome": "Cybarian: The Time Travelling Warrior",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24g2.jpg"
+  },
+  {
+    "Nome": "Cyberpunk 2077",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7iy1.jpg"
+  },
+  {
+    "Nome": "CYGNI - All Guns Blazing",
+    "Genero": "ArcadeIndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8c4n.jpg"
+  },
+  {
+    "Nome": "DAEMON X MACHINA",
+    "Genero": "AdventureHack and slash/Beat 'em upShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ejh.jpg"
+  },
+  {
+    "Nome": "Daggerfall Unity - GOG Cut",
+    "Genero": "",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Dakar Desert Rally",
+    "Genero": "ArcadeRacingSimulatorSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4s8w.jpg"
+  },
+  {
+    "Nome": "Dandara",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co824s.jpg"
+  },
+  {
+    "Nome": "Dark Light",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4gqj.jpg"
+  },
+  {
+    "Nome": "Dark Sector",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "DARK SOULS III",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9ed.jpg"
+  },
+  {
+    "Nome": "Darkwood",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coarfu.jpg"
+  },
+  {
+    "Nome": "DARQ",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rq9.jpg"
+  },
+  {
+    "Nome": "Daymare: 1998",
+    "Genero": "AdventureIndie",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24fl.jpg"
+  },
+  {
+    "Nome": "Dead by Daylight",
+    "Genero": "Strategy",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9dnz.jpg"
+  },
+  {
+    "Nome": "Dead by Daylight",
+    "Genero": "Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9dnz.jpg"
+  },
+  {
+    "Nome": "Dead Island 2",
+    "Genero": "AdventureHack and slash/Beat 'em upRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co911q.jpg"
+  },
+  {
+    "Nome": "Dead Island Riptide Definitive Edition",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6o7m.jpg"
+  },
+  {
+    "Nome": "Dead Space 2",
+    "Genero": "AdventureShooter",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co715m.jpg"
+  },
+  {
+    "Nome": "Deadlight: Director's Cut",
+    "Genero": "AdventurePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fkz.jpg"
+  },
+  {
+    "Nome": "Dear Esther: Landmark Edition",
+    "Genero": "AdventureIndie",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24vl.jpg"
+  },
+  {
+    "Nome": "Death Fungeon",
+    "Genero": "AdventureIndie",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o9o.jpg"
+  },
+  {
+    "Nome": "Death Squared",
+    "Genero": "IndiePlatformPuzzleStrategyTactical",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qrjrknu797scexyv0c0u.jpg"
+  },
+  {
+    "Nome": "Death Stranding",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobksf.jpg"
+  },
+  {
+    "Nome": "Death Stranding Content",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "DEATH STRANDING DIGITAL SOUNDTRACK",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "DEATHLOOP",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nzt.jpg"
+  },
+  {
+    "Nome": "Death's Door",
+    "Genero": "AdventureHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45xc.jpg"
+  },
+  {
+    "Nome": "Death's Door",
+    "Genero": "AdventureHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45xc.jpg"
+  },
+  {
+    "Nome": "Death's Gambit - Afterlife",
+    "Genero": "AdventurePlatformRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a9u.jpg"
+  },
+  {
+    "Nome": "Deceive Inc.",
+    "Genero": "IndieShooterTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5s7y.jpg"
+  },
+  {
+    "Nome": "Definitely Not Fried Chicken",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rio.jpg"
+  },
+  {
+    "Nome": "Deliver At All Costs",
+    "Genero": "AdventureArcadeIndieRacing",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9u9n.jpg"
+  },
+  {
+    "Nome": "Deliver Us Mars",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kxj.jpg"
+  },
+  {
+    "Nome": "Delta Force",
+    "Genero": "ShooterTactical",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa98y.jpg"
+  },
+  {
+    "Nome": "DEMON'S TILT",
+    "Genero": "ArcadeIndiePinballRole-playing (RPG)ShooterSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7s4.jpg"
+  },
+  {
+    "Nome": "Despotism 3k",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28x8.jpg"
+  },
+  {
+    "Nome": "Destiny 2",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9v5i.jpg"
+  },
+  {
+    "Nome": "Destroy All Humans! – Clone Carnage",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5g6k.jpg"
+  },
+  {
+    "Nome": "Deus Ex - Mankind Divided",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25jt.jpg"
+  },
+  {
+    "Nome": "Deus Ex 2: Invisible War",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v3e.jpg"
+  },
+  {
+    "Nome": "Deus Ex GOTY Edition",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Deus Ex: Human Revolution - Director’s Cut",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tgb.jpg"
+  },
+  {
+    "Nome": "Deus Ex: Mankind Divided",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25jt.jpg"
+  },
+  {
+    "Nome": "Dex",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gdn.jpg"
+  },
+  {
+    "Nome": "DiRT 4",
+    "Genero": "RacingSimulatorSport",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1srr.jpg"
+  },
+  {
+    "Nome": "Disco Elysium - The Final Cut",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.jpg"
+  },
+  {
+    "Nome": "Dishonored - Definitive Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcv.jpg"
+  },
+  {
+    "Nome": "Dishonored - Definitive Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcv.jpg"
+  },
+  {
+    "Nome": "Dishonored 2",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9e29.jpg"
+  },
+  {
+    "Nome": "Dishonored: Death of the Outsider",
+    "Genero": "AdventurePuzzleRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pd2.jpg"
+  },
+  {
+    "Nome": "Disney•Pixar WALL-E",
+    "Genero": "",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobkdb.jpg"
+  },
+  {
+    "Nome": "Divine Knockout",
+    "Genero": "FightingPlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coacyq.jpg"
+  },
+  {
+    "Nome": "DNF Duel",
+    "Genero": "FightingStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co722g.jpg"
+  },
+  {
+    "Nome": "Dodo Peak",
+    "Genero": "ArcadePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co38va.jpg"
+  },
+  {
+    "Nome": "Donkey Kong Country Tropical Freeze",
+    "Genero": "Platform",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pmi.jpg"
+  },
+  {
+    "Nome": "Don't Starve Together",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqp.jpg"
+  },
+  {
+    "Nome": "DOOM 3",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9dgk.jpg"
+  },
+  {
+    "Nome": "DOOM 3: BFG Edition",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ovt.jpg"
+  },
+  {
+    "Nome": "DOOM 64",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5qmz.jpg"
+  },
+  {
+    "Nome": "Doors - Paradox",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coah6d.jpg"
+  },
+  {
+    "Nome": "Doors: Paradox",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coah6d.jpg"
+  },
+  {
+    "Nome": "Dragon Age: Inquisition",
+    "Genero": "AdventureRole-playing (RPG)Tactical",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvy.jpg"
+  },
+  {
+    "Nome": "Dragon Age: Inquisition - Game of the Year Edition",
+    "Genero": "AdventureRole-playing (RPG)Tactical",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw0.jpg"
+  },
+  {
+    "Nome": "Dragon Age: Inquisition - Game of the Year Edition",
+    "Genero": "AdventureRole-playing (RPG)Tactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw0.jpg"
+  },
+  {
+    "Nome": "DreadOut 2",
+    "Genero": "AdventureIndie",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zzt.jpg"
+  },
+  {
+    "Nome": "DREDGE",
+    "Genero": "AdventureRole-playing (RPG)Simulator",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kyk.jpg"
+  },
+  {
+    "Nome": "DREDGE",
+    "Genero": "AdventureRole-playing (RPG)Simulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kyk.jpg"
+  },
+  {
+    "Nome": "Dungeon of the ENDLESS",
+    "Genero": "AdventureIndiePlatformReal Time Strategy (RTS)Role-playing (RPG)Strategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mgb.jpg"
+  },
+  {
+    "Nome": "Dying Light",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yq.jpg"
+  },
+  {
+    "Nome": "Dying Light",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65yq.jpg"
+  },
+  {
+    "Nome": "Dying Light The Bozak",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1kx5.jpg"
+  },
+  {
+    "Nome": "Dying Light The Following",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co661a.jpg"
+  },
+  {
+    "Nome": "EARTHLOCK",
+    "Genero": "AdventureIndieRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rv0.jpg"
+  },
+  {
+    "Nome": "Eastern Exorcist",
+    "Genero": "AdventureHack and slash/Beat 'em upIndiePlatformRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98my.jpg"
+  },
+  {
+    "Nome": "eFootball PES 2020",
+    "Genero": "SimulatorSport",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5tuq.jpg"
+  },
+  {
+    "Nome": "eFootball PES 2021 SEASON UPDATE",
+    "Genero": "SimulatorSport",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3c.jpg"
+  },
+  {
+    "Nome": "El Hijo",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3jfm.jpg"
+  },
+  {
+    "Nome": "Electrician Simulator",
+    "Genero": "AdventureIndiePuzzleSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ox4.jpg"
+  },
+  {
+    "Nome": "Elite Dangerous",
+    "Genero": "AdventureIndieRole-playing (RPG)ShooterSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8jkn.jpg"
+  },
+  {
+    "Nome": "EMPTY SHELL",
+    "Genero": "AdventureArcadeIndieShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co78ni.jpg"
+  },
+  {
+    "Nome": "En Garde!",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upIndie",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6slv.jpg"
+  },
+  {
+    "Nome": "Encased",
+    "Genero": "AdventureIndieRole-playing (RPG)StrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m7s.jpg"
+  },
+  {
+    "Nome": "ENDER LILIES: Quietus of the Knights",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9s9e.jpg"
+  },
+  {
+    "Nome": "Endling: Extinction is Forever",
+    "Genero": "AdventureIndieSimulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pmo.jpg"
+  },
+  {
+    "Nome": "Enter the Gungeon",
+    "Genero": "AdventureArcadeIndieShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdg.jpg"
+  },
+  {
+    "Nome": "Enter the Gungeon",
+    "Genero": "AdventureArcadeIndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdg.jpg"
+  },
+  {
+    "Nome": "Entropy : Zero",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3klb.jpg"
+  },
+  {
+    "Nome": "Entropy : Zero 2",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52m5.jpg"
+  },
+  {
+    "Nome": "Epistory - Typing Chronicles",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xni.jpg"
+  },
+  {
+    "Nome": "Escape Simulator",
+    "Genero": "AdventureIndiePoint-and-clickPuzzleSimulator",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6x8b.jpg"
+  },
+  {
+    "Nome": "Eternal Threads",
+    "Genero": "AdventureArcadeIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rjg.jpg"
+  },
+  {
+    "Nome": "Etherborn",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1jaf.jpg"
+  },
+  {
+    "Nome": "Europa Universalis IV",
+    "Genero": "Real Time Strategy (RTS)SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarv.jpg"
+  },
+  {
+    "Nome": "Evan's Remains",
+    "Genero": "AdventureIndiePlatformPuzzleVisual Novel",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28j4.jpg"
+  },
+  {
+    "Nome": "Everdream Valley",
+    "Genero": "AdventureArcadeIndieRole-playing (RPG)SimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7vr5.jpg"
+  },
+  {
+    "Nome": "Evil Dead The Game",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nqj.jpg"
+  },
+  {
+    "Nome": "Evoland Legendary Edition",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6gvi.jpg"
+  },
+  {
+    "Nome": "Eximius: Seize the Frontline",
+    "Genero": "IndieReal Time Strategy (RTS)ShooterStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zbd.jpg"
+  },
+  {
+    "Nome": "F.I.S.T.: Forged In Shadow Torch",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ua0.jpg"
+  },
+  {
+    "Nome": "Fall Guys",
+    "Genero": "IndiePlatformRacingSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6byb.jpg"
+  },
+  {
+    "Nome": "Fallout",
+    "Genero": "Role-playing (RPG)Turn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybr.jpg"
+  },
+  {
+    "Nome": "Fallout 2",
+    "Genero": "PuzzleRole-playing (RPG)Turn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ado.jpg"
+  },
+  {
+    "Nome": "Fallout 2: A Post Nuclear Role Playing Game",
+    "Genero": "PuzzleRole-playing (RPG)Turn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Fallout 3: Game of the Year Edition",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc1.jpg"
+  },
+  {
+    "Nome": "Fallout 3: Game of the Year Edition",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc1.jpg"
+  },
+  {
+    "Nome": "Fallout 4",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yc6.jpg"
+  },
+  {
+    "Nome": "Fallout New Vegas: Courier's Stash",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dt3.jpg"
+  },
+  {
+    "Nome": "Fallout New Vegas: Dead Money",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dt4.jpg"
+  },
+  {
+    "Nome": "Fallout New Vegas: Gun Runners’ Arsenal",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dt2.jpg"
+  },
+  {
+    "Nome": "Fallout New Vegas: Honest Hearts",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dt5.jpg"
+  },
+  {
+    "Nome": "Fallout New Vegas: Lonesome Road",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dt7.jpg"
+  },
+  {
+    "Nome": "Fallout New Vegas: Old World Blues",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7dt6.jpg"
+  },
+  {
+    "Nome": "Fallout Tactics",
+    "Genero": "Role-playing (RPG)StrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Fallout Tactics: Brotherhood of Steel",
+    "Genero": "Role-playing (RPG)StrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybr.jpg"
+  },
+  {
+    "Nome": "Fallout: A Post Nuclear Role Playing Game",
+    "Genero": "Role-playing (RPG)Turn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybn.jpg"
+  },
+  {
+    "Nome": "Fallout: London",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7zh.jpg"
+  },
+  {
+    "Nome": "Fallout: New Vegas",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u60.jpg"
+  },
+  {
+    "Nome": "Fallout: New Vegas Ultimate Edition",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybz.jpg"
+  },
+  {
+    "Nome": "Far Cry 3",
+    "Genero": "AdventureShooter",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpd.jpg"
+  },
+  {
+    "Nome": "Far Cry 4",
+    "Genero": "AdventureShooterTactical",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ke6.jpg"
+  },
+  {
+    "Nome": "Far Cry 5",
+    "Genero": "AdventureShooter",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qsa.jpg"
+  },
+  {
+    "Nome": "Far Cry 6",
+    "Genero": "AdventureShooter",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2npg.jpg"
+  },
+  {
+    "Nome": "Faraway 2: Jungle Escape",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j5u.jpg"
+  },
+  {
+    "Nome": "Faraway: Arctic Escape",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j5s.jpg"
+  },
+  {
+    "Nome": "Faraway: Director's Cut",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2glt.jpg"
+  },
+  {
+    "Nome": "Farming Simulator 19",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ami.jpg"
+  },
+  {
+    "Nome": "Farming Simulator 22",
+    "Genero": "Simulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90bl.jpg"
+  },
+  {
+    "Nome": "Fatal Fury Special",
+    "Genero": "Fighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b7p.jpg"
+  },
+  {
+    "Nome": "Fear the Night",
+    "Genero": "AdventureRole-playing (RPG)ShooterSimulator",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co78f6.jpg"
+  },
+  {
+    "Nome": "Felix The Reaper",
+    "Genero": "AdventureIndieMusicPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlt.jpg"
+  },
+  {
+    "Nome": "Figment",
+    "Genero": "AdventureIndieMusicPlatformPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co691d.jpg"
+  },
+  {
+    "Nome": "Figment",
+    "Genero": "AdventureIndieMusicPlatformPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co691d.jpg"
+  },
+  {
+    "Nome": "Figment 2: Creed Valley",
+    "Genero": "AdventureIndieMusicPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m7p.jpg"
+  },
+  {
+    "Nome": "Figment 2: Creed Valley",
+    "Genero": "AdventureIndieMusicPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3m7p.jpg"
+  },
+  {
+    "Nome": "Filament",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yi0.jpg"
+  },
+  {
+    "Nome": "Filthy Animals | Heist Simulator",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59pi.jpg"
+  },
+  {
+    "Nome": "First Class Trouble",
+    "Genero": "Indie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45ke.jpg"
+  },
+  {
+    "Nome": "Fistful of Frags",
+    "Genero": "IndieShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62l0.jpg"
+  },
+  {
+    "Nome": "Flashback",
+    "Genero": "AdventurePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4asf.jpg"
+  },
+  {
+    "Nome": "FlatOut",
+    "Genero": "RacingSimulator",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co97i4.jpg"
+  },
+  {
+    "Nome": "For Honor",
+    "Genero": "FightingHack and slash/Beat 'em up",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4orw.jpg"
+  },
+  {
+    "Nome": "Forager",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)SimulatorStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86yq.jpg"
+  },
+  {
+    "Nome": "Fort Solis",
+    "Genero": "AdventureIndie",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zbw.jpg"
+  },
+  {
+    "Nome": "Fortnite",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co89n1.jpg"
+  },
+  {
+    "Nome": "FoxCode",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86ax.jpg"
+  },
+  {
+    "Nome": "Friday the 13th: Killer Puzzle",
+    "Genero": "IndiePuzzleStrategy",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Frostpunk",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar27.jpg"
+  },
+  {
+    "Nome": "Frostpunk",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar27.jpg"
+  },
+  {
+    "Nome": "Gamedec - Definitive Edition",
+    "Genero": "AdventurePoint-and-clickRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaw8r.jpg"
+  },
+  {
+    "Nome": "Garden Story",
+    "Genero": "AdventureIndieRole-playing (RPG)Simulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3iua.jpg"
+  },
+  {
+    "Nome": "Gargoyles Remastered",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co71wz.jpg"
+  },
+  {
+    "Nome": "Gas Station Simulator",
+    "Genero": "IndieSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qix.jpg"
+  },
+  {
+    "Nome": "Gato Roboto",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ugu.jpg"
+  },
+  {
+    "Nome": "Genesis Alpha One Deluxe Edition",
+    "Genero": "Role-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d2d.jpg"
+  },
+  {
+    "Nome": "Ghost of a Tale",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kv4.jpg"
+  },
+  {
+    "Nome": "Ghost Song",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4koz.jpg"
+  },
+  {
+    "Nome": "Ghostbusters: Spirits Unleashed",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co543w.jpg"
+  },
+  {
+    "Nome": "Ghostrunner",
+    "Genero": "AdventurePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nbk.jpg"
+  },
+  {
+    "Nome": "Ghostrunner",
+    "Genero": "AdventurePlatformShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nbk.jpg"
+  },
+  {
+    "Nome": "Ghostrunner 2",
+    "Genero": "AdventureHack and slash/Beat 'em upPlatformStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co97mh.jpg"
+  },
+  {
+    "Nome": "Ghostwire Tokyo",
+    "Genero": "Adventure",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Giana Sisters: Twisted Dreams",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iqi.jpg"
+  },
+  {
+    "Nome": "Glove Skin",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Godfall",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2cri.jpg"
+  },
+  {
+    "Nome": "Godlike Burger",
+    "Genero": "Hack and slash/Beat 'em upIndieRole-playing (RPG)SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ohz.jpg"
+  },
+  {
+    "Nome": "God's Trigger",
+    "Genero": "Hack and slash/Beat 'em upIndiePuzzleShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rfi.jpg"
+  },
+  {
+    "Nome": "God's Trigger",
+    "Genero": "Hack and slash/Beat 'em upIndiePuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rfi.jpg"
+  },
+  {
+    "Nome": "Gods Will Fall",
+    "Genero": "AdventureFightingHack and slash/Beat 'em up",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kzj.jpg"
+  },
+  {
+    "Nome": "Gone Viral",
+    "Genero": "ArcadeHack and slash/Beat 'em upIndie",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ezm.jpg"
+  },
+  {
+    "Nome": "Grand Theft Auto V",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9751.jpg"
+  },
+  {
+    "Nome": "Grand Theft Auto V Enhanced",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ib0.jpg"
+  },
+  {
+    "Nome": "Grand Theft Auto: San Andreas",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lb9.jpg"
+  },
+  {
+    "Nome": "Grand Theft Auto: San Andreas",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lb9.jpg"
+  },
+  {
+    "Nome": "Gravitar Recharged",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zdk.jpg"
+  },
+  {
+    "Nome": "Gravity Circuit",
+    "Genero": "ArcadeIndiePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54xb.jpg"
+  },
+  {
+    "Nome": "Gravity Circuit",
+    "Genero": "ArcadeIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54xb.jpg"
+  },
+  {
+    "Nome": "Greak: Memories of Azur",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4c2y.jpg"
+  },
+  {
+    "Nome": "GRID Legends",
+    "Genero": "RacingSimulatorSport",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gvq.jpg"
+  },
+  {
+    "Nome": "Grime",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6z3s.jpg"
+  },
+  {
+    "Nome": "GRIME",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6z3s.jpg"
+  },
+  {
+    "Nome": "GRIP",
+    "Genero": "IndieRacingShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iwv.jpg"
+  },
+  {
+    "Nome": "Guacamelee! 2",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob232.jpg"
+  },
+  {
+    "Nome": "Guacamelee! Super Turbo Championship Edition",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob233.jpg"
+  },
+  {
+    "Nome": "Gunslugs",
+    "Genero": "AdventureArcadeIndiePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m8a.jpg"
+  },
+  {
+    "Nome": "Gunslugs 2",
+    "Genero": "AdventureArcadeIndiePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co41j8.jpg"
+  },
+  {
+    "Nome": "Gunslugs 3: Rogue Tactics",
+    "Genero": "",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co41j9.jpg"
+  },
+  {
+    "Nome": "GYLT",
+    "Genero": "AdventurePuzzleRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qad.jpg"
+  },
+  {
+    "Nome": "Haiku, the Robot",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co60vi.jpg"
+  },
+  {
+    "Nome": "Half-Life",
+    "Genero": "AdventurePuzzleShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co779u.jpg"
+  },
+  {
+    "Nome": "Half-Life 2",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co779u.jpg"
+  },
+  {
+    "Nome": "Half-Life 2: Deathmatch",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw4.jpg"
+  },
+  {
+    "Nome": "Half-Life 2: DownFall",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kpl.jpg"
+  },
+  {
+    "Nome": "Half-Life 2: Episode One",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9c5r.jpg"
+  },
+  {
+    "Nome": "Half-Life 2: Episode Two",
+    "Genero": "PuzzleShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw2.jpg"
+  },
+  {
+    "Nome": "Half-Life 2: Lost Coast",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25r5.jpg"
+  },
+  {
+    "Nome": "Half-Life Deathmatch: Source",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrf.jpg"
+  },
+  {
+    "Nome": "Half-Life: Absolute Zero",
+    "Genero": "IndieShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dxx.jpg"
+  },
+  {
+    "Nome": "Hanyo",
+    "Genero": "",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Hard West 2",
+    "Genero": "Role-playing (RPG)StrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nqk.jpg"
+  },
+  {
+    "Nome": "Haven Park",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z6l.jpg"
+  },
+  {
+    "Nome": "HD Wallpaper",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Heaven Dust 2",
+    "Genero": "AdventureIndiePuzzleShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co46b4.jpg"
+  },
+  {
+    "Nome": "Hell Division",
+    "Genero": "IndieShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5e69.jpg"
+  },
+  {
+    "Nome": "Hell is Others",
+    "Genero": "AdventureIndieShooterSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ovx.jpg"
+  },
+  {
+    "Nome": "Hell Let Loose",
+    "Genero": "IndieShooterSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6sqr.jpg"
+  },
+  {
+    "Nome": "Hell Pie",
+    "Genero": "AdventurePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m8d.jpg"
+  },
+  {
+    "Nome": "Heroes & Generals WWII",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hf2.jpg"
+  },
+  {
+    "Nome": "HITMAN",
+    "Genero": "AdventureShooterTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jot.jpg"
+  },
+  {
+    "Nome": "HITMAN 3",
+    "Genero": "AdventureShooterTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jot.jpg"
+  },
+  {
+    "Nome": "Hitman: Absolution",
+    "Genero": "AdventureShooterTactical",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrc.jpg"
+  },
+  {
+    "Nome": "Hive Jump 2: Survivors",
+    "Genero": "IndieRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ibe.jpg"
+  },
+  {
+    "Nome": "Hogwarts Legacy",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaav6.jpg"
+  },
+  {
+    "Nome": "Hollow Knight",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaes9.jpg"
+  },
+  {
+    "Nome": "Hollow Knight",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaes9.jpg"
+  },
+  {
+    "Nome": "Hollow Knight: Silksong",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg"
+  },
+  {
+    "Nome": "Hood Outlaws and Legends",
+    "Genero": "AdventureRole-playing (RPG)ShooterStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xss.jpg"
+  },
+  {
+    "Nome": "Horizon Chase Turbo",
+    "Genero": "ArcadeIndieRacingSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27ow.jpg"
+  },
+  {
+    "Nome": "HOT WHEELS UNLEASHED",
+    "Genero": "ArcadeRacing",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u4x.jpg"
+  },
+  {
+    "Nome": "How to Survive 2",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j62.jpg"
+  },
+  {
+    "Nome": "Hue",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Hue",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": null
+  },
+  {
+    "Nome": "HUMANKIND",
+    "Genero": "SimulatorStrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xs1.jpg"
+  },
+  {
+    "Nome": "Hundred Days",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5yvh.jpg"
+  },
+  {
+    "Nome": "Hundred Days - Winemaking Simulator",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Hyper Scape",
+    "Genero": "Shooter",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c4x.jpg"
+  },
+  {
+    "Nome": "I am Fish",
+    "Genero": "AdventurePlatformPuzzleSimulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50gd.jpg"
+  },
+  {
+    "Nome": "Immortal Redneck",
+    "Genero": "ArcadeIndieShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24w4.jpg"
+  },
+  {
+    "Nome": "Immortals Fenyx Rising",
+    "Genero": "AdventurePuzzleRole-playing (RPG)",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9kcb.jpg"
+  },
+  {
+    "Nome": "In Sound Mind",
+    "Genero": "AdventureIndiePlatformPuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p6y.jpg"
+  },
+  {
+    "Nome": "In Sound Mind",
+    "Genero": "AdventureIndiePlatformPuzzleShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p6y.jpg"
+  },
+  {
+    "Nome": "INDUSTRIA",
+    "Genero": "AdventureIndiePuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7xz0.jpg"
+  },
+  {
+    "Nome": "INDUSTRIA",
+    "Genero": "AdventureIndiePuzzleShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7xz0.jpg"
+  },
+  {
+    "Nome": "Infinifactory",
+    "Genero": "IndiePuzzleSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r2a.jpg"
+  },
+  {
+    "Nome": "Injustice: Gods Among Us Ultimate Edition",
+    "Genero": "Fighting",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mym.jpg"
+  },
+  {
+    "Nome": "Inside",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66n4.jpg"
+  },
+  {
+    "Nome": "Insurmountable",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fhl.jpg"
+  },
+  {
+    "Nome": "Intravenous",
+    "Genero": "IndieShooterTactical",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ww0.jpg"
+  },
+  {
+    "Nome": "Intravenous",
+    "Genero": "IndieShooterTactical",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ww0.jpg"
+  },
+  {
+    "Nome": "Iratus: Lord of the Dead",
+    "Genero": "IndieRole-playing (RPG)StrategyTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co275a.jpg"
+  },
+  {
+    "Nome": "Islets",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47vv.jpg"
+  },
+  {
+    "Nome": "It Takes Two",
+    "Genero": "AdventurePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg"
+  },
+  {
+    "Nome": "It Takes Two",
+    "Genero": "AdventurePlatformPuzzle",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg"
+  },
+  {
+    "Nome": "Jaded",
+    "Genero": "Indie",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa69e.jpg"
+  },
+  {
+    "Nome": "Jazz Jackrabbit 2: The Christmas Chronicles",
+    "Genero": "AdventurePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co287m.jpg"
+  },
+  {
+    "Nome": "Jazz Jackrabbit 2: The Secret Files",
+    "Genero": "AdventurePlatformPuzzleRacingShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co288n.jpg"
+  },
+  {
+    "Nome": "Jorel’s Brother and The Most Important Game of the Galaxy",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5g0d.jpg"
+  },
+  {
+    "Nome": "Jotun: Valhalla Edition",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lpe.jpg"
+  },
+  {
+    "Nome": "Journey to the Savage Planet",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pkf.jpg"
+  },
+  {
+    "Nome": "Jupiter Hell",
+    "Genero": "ArcadeIndieRole-playing (RPG)ShooterStrategyTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qgw.jpg"
+  },
+  {
+    "Nome": "Jurassic World Evolution",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r3g.jpg"
+  },
+  {
+    "Nome": "Jurassic World Evolution 2",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabod.jpg"
+  },
+  {
+    "Nome": "Just Cause 2",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qri.jpg"
+  },
+  {
+    "Nome": "Just Die Already",
+    "Genero": "AdventureIndiePlatformSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29rb.jpg"
+  },
+  {
+    "Nome": "Kao the Kangaroo",
+    "Genero": "AdventureArcadePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dtd.jpg"
+  },
+  {
+    "Nome": "KartRider: Drift",
+    "Genero": "RacingSport",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaa52.jpg"
+  },
+  {
+    "Nome": "KEO",
+    "Genero": "IndieRacing",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52sd.jpg"
+  },
+  {
+    "Nome": "KeyWe",
+    "Genero": "IndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3jkn.jpg"
+  },
+  {
+    "Nome": "KILL KNIGHT",
+    "Genero": "ArcadeIndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82c8.jpg"
+  },
+  {
+    "Nome": "Killing Floor 2",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2coc.jpg"
+  },
+  {
+    "Nome": "KillingFloor2Beta",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "King of Seas",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upIndieRole-playing (RPG)Strategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kjx.jpg"
+  },
+  {
+    "Nome": "Kingdom Come Deliverance",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qmv.jpg"
+  },
+  {
+    "Nome": "Knightfall: A Daring Journey",
+    "Genero": "IndieRacing",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ldn.jpg"
+  },
+  {
+    "Nome": "Kombinera",
+    "Genero": "PlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o71.jpg"
+  },
+  {
+    "Nome": "Lacuna – A Sci-Fi Noir Adventure",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Lara Croft and the Guardian of Light",
+    "Genero": "AdventurePlatformPuzzleShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vod.jpg"
+  },
+  {
+    "Nome": "Lara Croft and the Temple of Osiris",
+    "Genero": "AdventurePuzzleShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voe.jpg"
+  },
+  {
+    "Nome": "Last Day of June",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q7s.jpg"
+  },
+  {
+    "Nome": "Lawn Mowing Simulator",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wcb.jpg"
+  },
+  {
+    "Nome": "Left 4 Dead 2",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.jpg"
+  },
+  {
+    "Nome": "LEGO 2K Drive",
+    "Genero": "AdventureArcadeRacing",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ajx.jpg"
+  },
+  {
+    "Nome": "LEGO Builder's Journey",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84pn.jpg"
+  },
+  {
+    "Nome": "LEGO Indiana Jones: The Original Adventures",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w36.jpg"
+  },
+  {
+    "Nome": "LEGO Star Wars - The Complete Saga",
+    "Genero": "AdventurePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrr.jpg"
+  },
+  {
+    "Nome": "LEGO Star Wars III - The Clone Wars",
+    "Genero": "AdventurePlatformReal Time Strategy (RTS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qk2.jpg"
+  },
+  {
+    "Nome": "LEGO Star Wars: The Skywalker Saga",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28yb.jpg"
+  },
+  {
+    "Nome": "LEGO The Hobbit",
+    "Genero": "AdventurePuzzleRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20po.jpg"
+  },
+  {
+    "Nome": "LEGO The Lord of the Rings",
+    "Genero": "Adventure",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7z02.jpg"
+  },
+  {
+    "Nome": "Let's Build a Zoo",
+    "Genero": "AdventureRole-playing (RPG)SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yrn.jpg"
+  },
+  {
+    "Nome": "Lifeless Planet: Premier Edition",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t6z.jpg"
+  },
+  {
+    "Nome": "Limbo",
+    "Genero": "Adventure",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.jpg"
+  },
+  {
+    "Nome": "LISA: The Joyful - Definitive Edition",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l8y.jpg"
+  },
+  {
+    "Nome": "LISA: The Painful - Definitive Edition",
+    "Genero": "AdventurePlatformRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l8w.jpg"
+  },
+  {
+    "Nome": "Little Nightmares",
+    "Genero": "AdventureIndiePlatformPuzzleStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdi.jpg"
+  },
+  {
+    "Nome": "Little Nightmares Enhanced Edition",
+    "Genero": "AdventurePlatformPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa17d.jpg"
+  },
+  {
+    "Nome": "Loop Hero",
+    "Genero": "AdventureCard & Board GameIndieRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mfy.jpg"
+  },
+  {
+    "Nome": "Lords Of The Fallen",
+    "Genero": "Hack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29oa.jpg"
+  },
+  {
+    "Nome": "Lost Castle",
+    "Genero": "AdventureArcadeFightingIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iuv.jpg"
+  },
+  {
+    "Nome": "Lost Ruins",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)Strategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oij.jpg"
+  },
+  {
+    "Nome": "LOVE",
+    "Genero": "Platform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9k0t.jpg"
+  },
+  {
+    "Nome": "Lovecraft's Untold Stories",
+    "Genero": "AdventureArcadeIndieRole-playing (RPG)ShooterStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vn3.jpg"
+  },
+  {
+    "Nome": "Lure of the Temptress (1992)",
+    "Genero": "AdventurePoint-and-clickPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Machinarium",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27lo.jpg"
+  },
+  {
+    "Nome": "Mad Max",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uuh.jpg"
+  },
+  {
+    "Nome": "Madden NFL 22",
+    "Genero": "SimulatorSportStrategy",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a7l.jpg"
+  },
+  {
+    "Nome": "Mafia",
+    "Genero": "AdventureFightingRacingShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co958d.jpg"
+  },
+  {
+    "Nome": "Mafia II (Classic)",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Mafia II: Definitive Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26zi.jpg"
+  },
+  {
+    "Nome": "Mafia III: Definitive Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26zj.jpg"
+  },
+  {
+    "Nome": "Mafia: Definitive Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26vl.jpg"
+  },
+  {
+    "Nome": "Mages of Mystralia",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/dkqoabfj9ka5p0vbeqie.jpg"
+  },
+  {
+    "Nome": "Magic: Legends",
+    "Genero": "Hack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v52.jpg"
+  },
+  {
+    "Nome": "Maid of Sker",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25mq.jpg"
+  },
+  {
+    "Nome": "Make Way",
+    "Genero": "AdventureArcadeIndieRacing",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co70l2.jpg"
+  },
+  {
+    "Nome": "Maneater",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Mario Kart 8 Deluxe",
+    "Genero": "ArcadeRacing",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ydc.jpg"
+  },
+  {
+    "Nome": "Marvel's Guardians of the Galaxy",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4yh5.jpg"
+  },
+  {
+    "Nome": "Marvel's Guardians of the Galaxy: Digital Deluxe Edition",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3t3u.jpg"
+  },
+  {
+    "Nome": "Marvel's Midnight Suns",
+    "Genero": "Role-playing (RPG)StrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ofr.jpg"
+  },
+  {
+    "Nome": "Mass Effect Legendary Edition",
+    "Genero": "AdventureRole-playing (RPG)ShooterStrategy",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k5h.jpg"
+  },
+  {
+    "Nome": "Masterplan Tycoon",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dky.jpg"
+  },
+  {
+    "Nome": "Max: The Curse of Brotherhood",
+    "Genero": "AdventurePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26y5.jpg"
+  },
+  {
+    "Nome": "Meganoid",
+    "Genero": "AdventureArcadePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalu3.jpg"
+  },
+  {
+    "Nome": "Men of War",
+    "Genero": "Real Time Strategy (RTS)SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6adk.jpg"
+  },
+  {
+    "Nome": "Metal Slug",
+    "Genero": "Shooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20gf.jpg"
+  },
+  {
+    "Nome": "Metal Slug 2",
+    "Genero": "AdventureArcadePlatformShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24zi.jpg"
+  },
+  {
+    "Nome": "Metal Slug 3",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6tfp.jpg"
+  },
+  {
+    "Nome": "METAL SLUG 3",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6tfp.jpg"
+  },
+  {
+    "Nome": "Metal Slug 4",
+    "Genero": "AdventureShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ox7.jpg"
+  },
+  {
+    "Nome": "Metal Slug X",
+    "Genero": "Arcade",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ish.jpg"
+  },
+  {
+    "Nome": "Metal Unit",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hej.jpg"
+  },
+  {
+    "Nome": "Metro 2033",
+    "Genero": "Tactical",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd6.jpg"
+  },
+  {
+    "Nome": "Metro 2033 Redux",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar0z.jpg"
+  },
+  {
+    "Nome": "Metro 2033 Redux",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar0z.jpg"
+  },
+  {
+    "Nome": "Metro 2033 Redux",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar0z.jpg"
+  },
+  {
+    "Nome": "Metro Exodus",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaroh.jpg"
+  },
+  {
+    "Nome": "Metro Exodus Enhanced Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab4r.jpg"
+  },
+  {
+    "Nome": "Metro Last Light Redux",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar10.jpg"
+  },
+  {
+    "Nome": "Metro: Last Light Complete Edition",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oco.jpg"
+  },
+  {
+    "Nome": "Metro: Last Light Redux",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coar10.jpg"
+  },
+  {
+    "Nome": "Metroid Dread",
+    "Genero": "AdventurePlatformShooter",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co935n.jpg"
+  },
+  {
+    "Nome": "Middle-earth: Shadow of Mordor Game of the Year Edition",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2who.jpg"
+  },
+  {
+    "Nome": "Middle-earth: Shadow of War",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalj6.jpg"
+  },
+  {
+    "Nome": "Midnight Ghost Hunt",
+    "Genero": "Indie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4l49.jpg"
+  },
+  {
+    "Nome": "Missile Command: Recharged",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m9g.jpg"
+  },
+  {
+    "Nome": "Monument Valley",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8v8p.jpg"
+  },
+  {
+    "Nome": "Monument Valley",
+    "Genero": "AdventurePuzzleStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8v8p.jpg"
+  },
+  {
+    "Nome": "Monument Valley 2",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaev4.jpg"
+  },
+  {
+    "Nome": "Monument Valley 2",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaev4.jpg"
+  },
+  {
+    "Nome": "Moonlighter",
+    "Genero": "AdventureHack and slash/Beat 'em upIndieRole-playing (RPG)Simulator",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pnh.jpg"
+  },
+  {
+    "Nome": "Moonscars",
+    "Genero": "AdventureHack and slash/Beat 'em upIndiePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kle.jpg"
+  },
+  {
+    "Nome": "Morbid: The Seven Acolytes",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29q0.jpg"
+  },
+  {
+    "Nome": "MORDHAU",
+    "Genero": "FightingHack and slash/Beat 'em upIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrx.jpg"
+  },
+  {
+    "Nome": "Mortal Kombat X",
+    "Genero": "Fighting",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co698e.jpg"
+  },
+  {
+    "Nome": "Mortal Shell",
+    "Genero": "IndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co227z.jpg"
+  },
+  {
+    "Nome": "Mortal Shell Tech Beta",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Mortal Shell: Rotting Christ Pack",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Mothergunship",
+    "Genero": "IndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4unw.jpg"
+  },
+  {
+    "Nome": "Moving Out",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6zwl.jpg"
+  },
+  {
+    "Nome": "Murder by Numbers",
+    "Genero": "IndiePuzzleVisual Novel",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7jkq.jpg"
+  },
+  {
+    "Nome": "Mutant Year Zero Road to Eden",
+    "Genero": "AdventureRole-playing (RPG)StrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3b.jpg"
+  },
+  {
+    "Nome": "MythForce",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nwg.jpg"
+  },
+  {
+    "Nome": "MythForce",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nwg.jpg"
+  },
+  {
+    "Nome": "NAIRI: Tower of Shirin",
+    "Genero": "AdventureIndiePlatformPoint-and-clickPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21de.jpg"
+  },
+  {
+    "Nome": "NBA 2K21",
+    "Genero": "SimulatorSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eck.jpg"
+  },
+  {
+    "Nome": "Necromunda: Hired Gun",
+    "Genero": "AdventureShooterTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31dd.jpg"
+  },
+  {
+    "Nome": "Need for Speed Heat",
+    "Genero": "AdventureRacingSport",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j7z.jpg"
+  },
+  {
+    "Nome": "Need for Speed Hot Pursuit Remastered",
+    "Genero": "Racing",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nhk.jpg"
+  },
+  {
+    "Nome": "Neon Abyss",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3t3e.jpg"
+  },
+  {
+    "Nome": "Never Alone (Kisima Ingitchuna)",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1t.jpg"
+  },
+  {
+    "Nome": "Next Up Hero",
+    "Genero": "AdventureHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3q40.jpg"
+  },
+  {
+    "Nome": "Nickelodeon Kart Racers 2: Grand Prix",
+    "Genero": "ArcadeRacingSport",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gka.jpg"
+  },
+  {
+    "Nome": "Nightingale",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8sxo.jpg"
+  },
+  {
+    "Nome": "Nightingale - Legacy Mode",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Ninja Commando",
+    "Genero": "",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaric.jpg"
+  },
+  {
+    "Nome": "Nioh: The Complete Edition",
+    "Genero": "Hack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uy3.jpg"
+  },
+  {
+    "Nome": "Nobody Wants to Die",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7w0e.jpg"
+  },
+  {
+    "Nome": "Nubs!",
+    "Genero": "Indie",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9sus.jpg"
+  },
+  {
+    "Nome": "Obduction",
+    "Genero": "AdventureIndiePoint-and-clickPuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wod.jpg"
+  },
+  {
+    "Nome": "Oddworld: New 'n' Tasty",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n69.jpg"
+  },
+  {
+    "Nome": "Ogu and the Secret Forest",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9sw6.jpg"
+  },
+  {
+    "Nome": "One Gun Guy",
+    "Genero": "ArcadeIndiePlatformShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qlj.jpg"
+  },
+  {
+    "Nome": "One Hand Clapping",
+    "Genero": "AdventureIndieMusicPlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tgp.jpg"
+  },
+  {
+    "Nome": "OneShift",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3qlr.jpg"
+  },
+  {
+    "Nome": "Orcs Must Die! 3",
+    "Genero": "AdventureIndiePuzzleShooterStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52n8.jpg"
+  },
+  {
+    "Nome": "Ori and the Blind Forest",
+    "Genero": "AdventurePlatformPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s0m.jpg"
+  },
+  {
+    "Nome": "Ori and the Blind Forest: Definitive Edition",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s0m.jpg"
+  },
+  {
+    "Nome": "Ori and the Will of the Wisps",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e1l.jpg"
+  },
+  {
+    "Nome": "Orwell: Keeping an Eye on You",
+    "Genero": "AdventureIndieSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ajm.jpg"
+  },
+  {
+    "Nome": "Out of Line",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99sm.jpg"
+  },
+  {
+    "Nome": "Out of Line",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99sm.jpg"
+  },
+  {
+    "Nome": "Outlast",
+    "Genero": "AdventureIndie",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yat.jpg"
+  },
+  {
+    "Nome": "Overcooked! 2",
+    "Genero": "ArcadeIndieSimulatorStrategyTactical",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3n.jpg"
+  },
+  {
+    "Nome": "Overcooked! 2",
+    "Genero": "ArcadeIndieSimulatorStrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3n.jpg"
+  },
+  {
+    "Nome": "Overcooked! 2",
+    "Genero": "ArcadeIndieSimulatorStrategyTactical",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3n.jpg"
+  },
+  {
+    "Nome": "Overcooked! All You Can Eat",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4969.jpg"
+  },
+  {
+    "Nome": "Overcooked: Gourmet Edition",
+    "Genero": "IndieSimulator",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2x6s.jpg"
+  },
+  {
+    "Nome": "Party Club",
+    "Genero": "IndieSimulator",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wpg.jpg"
+  },
+  {
+    "Nome": "Pathfinder Kingmaker - Enhanced Plus Edition",
+    "Genero": "Role-playing (RPG)Tactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4b7k.jpg"
+  },
+  {
+    "Nome": "Pathologic 3: Quarantine",
+    "Genero": "AdventureIndieRole-playing (RPG)Simulator",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co98wn.jpg"
+  },
+  {
+    "Nome": "PAYDAY 2",
+    "Genero": "Role-playing (RPG)ShooterTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqu.jpg"
+  },
+  {
+    "Nome": "PAYDAY 2",
+    "Genero": "Role-playing (RPG)ShooterTactical",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqu.jpg"
+  },
+  {
+    "Nome": "PC Building Simulator",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5kcc.jpg"
+  },
+  {
+    "Nome": "Peaky Blinders: Mastermind",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23is.jpg"
+  },
+  {
+    "Nome": "Phasmophobia",
+    "Genero": "IndiePuzzleTactical",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamcz.jpg"
+  },
+  {
+    "Nome": "Phoning Home",
+    "Genero": "AdventureIndie",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21fx.jpg"
+  },
+  {
+    "Nome": "Phoning Home",
+    "Genero": "AdventureIndie",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21fx.jpg"
+  },
+  {
+    "Nome": "PICO PARK",
+    "Genero": "IndiePuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yks.jpg"
+  },
+  {
+    "Nome": "Pillars of Eternity - Definitive Edition",
+    "Genero": "AdventureIndieRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazlk.jpg"
+  },
+  {
+    "Nome": "Pillars of Eternity: Definitive Edition",
+    "Genero": "AdventureIndieRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coazlk.jpg"
+  },
+  {
+    "Nome": "Planet of Lana",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xw6.jpg"
+  },
+  {
+    "Nome": "Plants vs Zombies: Battle for Neighborville",
+    "Genero": "",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3isd.jpg"
+  },
+  {
+    "Nome": "PlateUp!",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ty9.jpg"
+  },
+  {
+    "Nome": "Poker Club",
+    "Genero": "Card & Board GameIndieSimulatorSportStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6fzf.jpg"
+  },
+  {
+    "Nome": "Portal",
+    "Genero": "PlatformPuzzleShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg"
+  },
+  {
+    "Nome": "Portal 2",
+    "Genero": "AdventurePlatformPuzzleShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaanx.jpg"
+  },
+  {
+    "Nome": "Portal: Revolution",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6118.jpg"
+  },
+  {
+    "Nome": "POSTAL 2",
+    "Genero": "AdventureIndieShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fqo.jpg"
+  },
+  {
+    "Nome": "POSTAL: Classic and Uncut",
+    "Genero": "",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Predator Hunting Grounds",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Prey",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9aoh.jpg"
+  },
+  {
+    "Nome": "PREY",
+    "Genero": "AdventurePuzzleRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9aoh.jpg"
+  },
+  {
+    "Nome": "Prince of Persia: The Lost Crown",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coafpt.jpg"
+  },
+  {
+    "Nome": "Project Borealis: Prologue",
+    "Genero": "",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co91zb.jpg"
+  },
+  {
+    "Nome": "Project Winter",
+    "Genero": "AdventureIndieStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t2u.jpg"
+  },
+  {
+    "Nome": "Projection: First Light",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wpm.jpg"
+  },
+  {
+    "Nome": "Pummel Party",
+    "Genero": "ArcadeCard & Board GameIndie",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20uq.jpg"
+  },
+  {
+    "Nome": "Pumpkin Jack",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3r4x.jpg"
+  },
+  {
+    "Nome": "Puzzle Pack 1",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Puzzle Pack 2",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5t9s.jpg"
+  },
+  {
+    "Nome": "Q.U.B.E. 10th Anniversary",
+    "Genero": "AdventureIndiePlatformPuzzleSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ygb.jpg"
+  },
+  {
+    "Nome": "Q.U.B.E. 2",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g7p.jpg"
+  },
+  {
+    "Nome": "Q.U.B.E. 2 Soundtrack",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Q.U.B.E: Director's Cut",
+    "Genero": "AdventureIndiePlatformPuzzleStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h4y.jpg"
+  },
+  {
+    "Nome": "Quake",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4n28.jpg"
+  },
+  {
+    "Nome": "Quake 4",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1o1t.jpg"
+  },
+  {
+    "Nome": "Quake II",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9f8q.jpg"
+  },
+  {
+    "Nome": "Quake II (Original)",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Quake II RTX",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1umd.jpg"
+  },
+  {
+    "Nome": "RAGE 2",
+    "Genero": "AdventureRacingRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3s62.jpg"
+  },
+  {
+    "Nome": "Rain World",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24pm.jpg"
+  },
+  {
+    "Nome": "RAYMAN LEGENDS Demo",
+    "Genero": "",
+    "Fonte": "Ubisoft",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Rayman Origins",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7k.jpg"
+  },
+  {
+    "Nome": "Rayman Raving Rabbids",
+    "Genero": "",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pj8.jpg"
+  },
+  {
+    "Nome": "Real Bout Fatal Fury 2: The Newcomers",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakx1.jpg"
+  },
+  {
+    "Nome": "Rebel Galaxy Outlaw",
+    "Genero": "AdventureIndieRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2feh.jpg"
+  },
+  {
+    "Nome": "Recipe for Disaster",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ynl.jpg"
+  },
+  {
+    "Nome": "Recompile",
+    "Genero": "AdventureIndiePlatformShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tmt.jpg"
+  },
+  {
+    "Nome": "Red Dead Redemption 2",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg"
+  },
+  {
+    "Nome": "Relicta",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2621.jpg"
+  },
+  {
+    "Nome": "Remnant: From the Ashes",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m4w.jpg"
+  },
+  {
+    "Nome": "Republique",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uq0.jpg"
+  },
+  {
+    "Nome": "Republique VR",
+    "Genero": "AdventurePuzzle",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Resident Evil",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20cp.jpg"
+  },
+  {
+    "Nome": "Resident Evil 0",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3p.jpg"
+  },
+  {
+    "Nome": "Resident Evil 2",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Resident Evil 3",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22l7.jpg"
+  },
+  {
+    "Nome": "Resident Evil 4 (2005)",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Resident Evil 5",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vzi.jpg"
+  },
+  {
+    "Nome": "Resident Evil 6",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pyq.jpg"
+  },
+  {
+    "Nome": "Resident Evil 7 Biohazard",
+    "Genero": "AdventurePuzzleShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0ry.jpg"
+  },
+  {
+    "Nome": "Resident Evil Re:Verse",
+    "Genero": "Shooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob2d2.jpg"
+  },
+  {
+    "Nome": "RESIDENT EVIL RESISTANCE",
+    "Genero": "",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22d8.jpg"
+  },
+  {
+    "Nome": "Resident Evil Revelations",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zvu.jpg"
+  },
+  {
+    "Nome": "Resident Evil Revelations 2",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co92d9.jpg"
+  },
+  {
+    "Nome": "Resident Evil Village",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oyw.jpg"
+  },
+  {
+    "Nome": "Residual",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobm6i.jpg"
+  },
+  {
+    "Nome": "Revita",
+    "Genero": "AdventureIndieRole-playing (RPG)Shooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u55.jpg"
+  },
+  {
+    "Nome": "Rise of Industry",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rge.jpg"
+  },
+  {
+    "Nome": "Rise of the Tomb Raider",
+    "Genero": "AdventureShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqa.jpg"
+  },
+  {
+    "Nome": "Rise of the Tomb Raider: 20 Year Celebration",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ib1.jpg"
+  },
+  {
+    "Nome": "Rising Hell",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f3r.jpg"
+  },
+  {
+    "Nome": "Rising Storm 2: Vietnam",
+    "Genero": "IndieShooterSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hmu.jpg"
+  },
+  {
+    "Nome": "Riverbond",
+    "Genero": "AdventureArcadeIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3r.jpg"
+  },
+  {
+    "Nome": "Road Redemption",
+    "Genero": "AdventureArcadeIndieRacingSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hlo.jpg"
+  },
+  {
+    "Nome": "Rocket League",
+    "Genero": "IndieRacingSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaiyq.jpg"
+  },
+  {
+    "Nome": "Rogue Legacy",
+    "Genero": "IndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27fi.jpg"
+  },
+  {
+    "Nome": "RollerCoaster Tycoon 3: Complete Edition",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g2g.jpg"
+  },
+  {
+    "Nome": "Rugrats: Adventures in Gameland",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co84n3.jpg"
+  },
+  {
+    "Nome": "RUINER",
+    "Genero": "AdventureIndieShooterStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6knu.jpg"
+  },
+  {
+    "Nome": "Ryse: Son of Rome",
+    "Genero": "AdventureHack and slash/Beat 'em up",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r7y.jpg"
+  },
+  {
+    "Nome": "Sable",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Saints Row",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yt7.jpg"
+  },
+  {
+    "Nome": "Saints Row 2",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yt7.jpg"
+  },
+  {
+    "Nome": "Saints Row IV Re-Elected",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y9h.jpg"
+  },
+  {
+    "Nome": "Saints Row IV: Re-Elected",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y9h.jpg"
+  },
+  {
+    "Nome": "Saints Row The Third Remastered",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22r7.jpg"
+  },
+  {
+    "Nome": "Saints Row: Gat out of Hell",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23fw.jpg"
+  },
+  {
+    "Nome": "Saints Row: The Third Remastered",
+    "Genero": "AdventureRacingShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22r7.jpg"
+  },
+  {
+    "Nome": "Salt and Sanctuary",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xszzunhatlbhoeznqovc.jpg"
+  },
+  {
+    "Nome": "Samorost 3",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uye.jpg"
+  },
+  {
+    "Nome": "Samurai Bringer",
+    "Genero": "AdventureArcadeHack and slash/Beat 'em upIndiePuzzleRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4oi1.jpg"
+  },
+  {
+    "Nome": "Samurai Shodown II",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r8h.jpg"
+  },
+  {
+    "Nome": "Sands of Aura",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4usr.jpg"
+  },
+  {
+    "Nome": "Saturnalia",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p66.jpg"
+  },
+  {
+    "Nome": "Scarf",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xt7.jpg"
+  },
+  {
+    "Nome": "SCARF",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)Strategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xt7.jpg"
+  },
+  {
+    "Nome": "Scorn",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v5c.jpg"
+  },
+  {
+    "Nome": "Scourgebringer",
+    "Genero": "AdventureArcadeFightingIndiePlatformShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kce.jpg"
+  },
+  {
+    "Nome": "ScourgeBringer",
+    "Genero": "AdventureArcadeFightingIndiePlatformShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kce.jpg"
+  },
+  {
+    "Nome": "SeaOrama: World of Shipping",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co78zr.jpg"
+  },
+  {
+    "Nome": "Second Extinction",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29gq.jpg"
+  },
+  {
+    "Nome": "SEGA Mega Drive & Genesis Classics",
+    "Genero": "AdventureArcadeHack and slash/Beat 'em upPinballPlatformPuzzleRacingRole-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6sm7.jpg"
+  },
+  {
+    "Nome": "SELECTIONS OF TITAN ART BOOK",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Serial Cleaner",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)Simulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tve.jpg"
+  },
+  {
+    "Nome": "Session: Skate Sim",
+    "Genero": "IndieSimulatorSportStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8851.jpg"
+  },
+  {
+    "Nome": "Severed Steel",
+    "Genero": "IndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coahch.jpg"
+  },
+  {
+    "Nome": "Severed Steel - Artbook",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Shadow of the Tomb Raider: Definitive Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t7w.jpg"
+  },
+  {
+    "Nome": "Shadow Tactics Blades of the Shogun",
+    "Genero": "IndieReal Time Strategy (RTS)SimulatorStrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8c.jpg"
+  },
+  {
+    "Nome": "Shadow Tactics: Blades of the Shogun",
+    "Genero": "IndieReal Time Strategy (RTS)SimulatorStrategyTactical",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8c.jpg"
+  },
+  {
+    "Nome": "Shadow Tactics: Blades of the Shogun",
+    "Genero": "IndieReal Time Strategy (RTS)SimulatorStrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8c.jpg"
+  },
+  {
+    "Nome": "Shadowrun Hong Kong",
+    "Genero": "AdventureIndieRole-playing (RPG)StrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wg9.jpg"
+  },
+  {
+    "Nome": "Shadowrun Returns",
+    "Genero": "AdventureIndieRole-playing (RPG)StrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fhj.jpg"
+  },
+  {
+    "Nome": "Shadowrun: Dragonfall - Director’s Cut",
+    "Genero": "AdventureIndieRole-playing (RPG)StrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co90ym.jpg"
+  },
+  {
+    "Nome": "Shadows: Awakening",
+    "Genero": "Hack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mht.jpg"
+  },
+  {
+    "Nome": "Shantae and the Pirate's Curse",
+    "Genero": "AdventureIndiePlatformRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4b1u.jpg"
+  },
+  {
+    "Nome": "Shattered - Tale of the Forgotten King",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rad.jpg"
+  },
+  {
+    "Nome": "Sheepy: A Short Adventure",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7rkr.jpg"
+  },
+  {
+    "Nome": "Shenmue 3",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ftj.jpg"
+  },
+  {
+    "Nome": "Shovel Knight Showdown",
+    "Genero": "AdventureFightingIndiePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaa6.jpg"
+  },
+  {
+    "Nome": "Sid Meier's Civilization VI",
+    "Genero": "SimulatorStrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqr.jpg"
+  },
+  {
+    "Nome": "Sifu",
+    "Genero": "FightingHack and slash/Beat 'em upIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4h5s.jpg"
+  },
+  {
+    "Nome": "Sine Mora EX",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24zs.jpg"
+  },
+  {
+    "Nome": "Sir Whoopass: Immortal Death",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oqe.jpg"
+  },
+  {
+    "Nome": "Sky Racket",
+    "Genero": "AdventureArcadeIndieShooterSport",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t0i.jpg"
+  },
+  {
+    "Nome": "Slain: Back From Hell",
+    "Genero": "AdventureArcadeFightingIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rbn.jpg"
+  },
+  {
+    "Nome": "Snakebird Complete",
+    "Genero": "ArcadeIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co85u0.jpg"
+  },
+  {
+    "Nome": "Sniper Elite 3",
+    "Genero": "AdventureShooterSimulatorTactical",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e40.jpg"
+  },
+  {
+    "Nome": "Sniper Ghost Warrior Contracts",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coakea.jpg"
+  },
+  {
+    "Nome": "SNK 40th Anniversary Collection",
+    "Genero": "AdventureArcadeShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co249k.jpg"
+  },
+  {
+    "Nome": "Sonic Mania",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uho.jpg"
+  },
+  {
+    "Nome": "Soulstice",
+    "Genero": "AdventureHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "South Scrimshaw, Part One",
+    "Genero": "AdventureIndieVisual Novel",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Space Hulk: Deathwing - Enhanced Edition",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82bm.jpg"
+  },
+  {
+    "Nome": "Speed Brawl",
+    "Genero": "AdventureArcadeFightingHack and slash/Beat 'em upIndiePlatformRacingReal Time Strategy (RTS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co275p.jpg"
+  },
+  {
+    "Nome": "Spelunky",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47m4.jpg"
+  },
+  {
+    "Nome": "Spinch",
+    "Genero": "AdventureArcadeIndiePlatform",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2avb.jpg"
+  },
+  {
+    "Nome": "Spirit of the North",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ewy.jpg"
+  },
+  {
+    "Nome": "Star Stuff",
+    "Genero": "AdventureIndiePuzzleStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6eps.jpg"
+  },
+  {
+    "Nome": "STAR WARS Battlefront II",
+    "Genero": "AdventureShooter",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1g4.jpg"
+  },
+  {
+    "Nome": "STAR WARS Battlefront II (Classic, 2005)",
+    "Genero": "Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1g4.jpg"
+  },
+  {
+    "Nome": "STAR WARS Battlefront II: Celebration Edition",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2od9.jpg"
+  },
+  {
+    "Nome": "STAR WARS Jedi Knight - Jedi Academy",
+    "Genero": "AdventureShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5c44.jpg"
+  },
+  {
+    "Nome": "STAR WARS Jedi Knight II - Jedi Outcast",
+    "Genero": "AdventureShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y67.jpg"
+  },
+  {
+    "Nome": "STAR WARS Jedi: Fallen Order",
+    "Genero": "Adventure",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.jpg"
+  },
+  {
+    "Nome": "STAR WARS Republic Commando",
+    "Genero": "AdventureShooterTactical",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2au4.jpg"
+  },
+  {
+    "Nome": "Star Wars Squadrons",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlz.jpg"
+  },
+  {
+    "Nome": "STAR WARS: Bounty Hunter",
+    "Genero": "AdventurePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8f77.jpg"
+  },
+  {
+    "Nome": "Star Wars: Knights of the Old Republic",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmz.jpg"
+  },
+  {
+    "Nome": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+    "Genero": "AdventureRole-playing (RPG)Strategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrj.jpg"
+  },
+  {
+    "Nome": "Star Wars: Rogue Squadron",
+    "Genero": "Shooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7k18.jpg"
+  },
+  {
+    "Nome": "STAR WARS: Squadrons",
+    "Genero": "ShooterSimulator",
+    "Fonte": "EA",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlz.jpg"
+  },
+  {
+    "Nome": "Star Wars: The Force Unleashed",
+    "Genero": "AdventureHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xx.jpg"
+  },
+  {
+    "Nome": "Star Wars: The Force Unleashed II",
+    "Genero": "AdventureHack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xw.jpg"
+  },
+  {
+    "Nome": "Starlink: Battle for Atlas",
+    "Genero": "AdventureArcadeReal Time Strategy (RTS)Role-playing (RPG)ShooterSimulatorStrategy",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pm8.jpg"
+  },
+  {
+    "Nome": "STASIS",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5phm.jpg"
+  },
+  {
+    "Nome": "STASIS : BONE TOTEM",
+    "Genero": "AdventureArcadeIndiePoint-and-clickPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k6k.jpg"
+  },
+  {
+    "Nome": "Station to Station",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6i5f.jpg"
+  },
+  {
+    "Nome": "SteamWorld Dig",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg"
+  },
+  {
+    "Nome": "SteamWorld Dig 2",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg"
+  },
+  {
+    "Nome": "SteamWorld Dig 2",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg"
+  },
+  {
+    "Nome": "SteamWorld Dig 2",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5byf.jpg"
+  },
+  {
+    "Nome": "SteamWorld Heist",
+    "Genero": "AdventureIndieRole-playing (RPG)StrategyTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co83o5.jpg"
+  },
+  {
+    "Nome": "Steel Rats",
+    "Genero": "ArcadePlatformRacing",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24a0.jpg"
+  },
+  {
+    "Nome": "Stellaris",
+    "Genero": "Real Time Strategy (RTS)SimulatorStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaru.jpg"
+  },
+  {
+    "Nome": "Stick it to the Man",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Styx: Master of Shadows",
+    "Genero": "AdventureRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1n.jpg"
+  },
+  {
+    "Nome": "Styx: Shards of Darkness",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24zt.jpg"
+  },
+  {
+    "Nome": "Styx: Shards of Darkness - Deluxe Edition",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Submerged Hidden Depths",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hka.jpg"
+  },
+  {
+    "Nome": "Suicide Squad: Kill the Justice League",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co40fu.jpg"
+  },
+  {
+    "Nome": "Sunblaze",
+    "Genero": "AdventureArcadeIndiePlatformPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tup.jpg"
+  },
+  {
+    "Nome": "Super Adventure Hand",
+    "Genero": "ArcadeIndiePlatformPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6izg.jpg"
+  },
+  {
+    "Nome": "SUPER CRAZY RHYTHM CASTLE",
+    "Genero": "AdventureMusicPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co77v6.jpg"
+  },
+  {
+    "Nome": "Super Mario 3D World Bowsers Fury",
+    "Genero": "AdventurePlatform",
+    "Fonte": "Switch",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobb2d.jpg"
+  },
+  {
+    "Nome": "Super Meat Boy",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5t36.jpg"
+  },
+  {
+    "Nome": "Super Meat Boy Forever",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5qlr.jpg"
+  },
+  {
+    "Nome": "Supraland",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yys.jpg"
+  },
+  {
+    "Nome": "Surf World Series",
+    "Genero": "ArcadeSport",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wvl.jpg"
+  },
+  {
+    "Nome": "Surviving Mars",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1kvs.jpg"
+  },
+  {
+    "Nome": "Surviving Mars",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1kvs.jpg"
+  },
+  {
+    "Nome": "Surviving the Aftermath",
+    "Genero": "SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wsb.jpg"
+  },
+  {
+    "Nome": "Swelter",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5opg.jpg"
+  },
+  {
+    "Nome": "Syberia 2",
+    "Genero": "AdventurePoint-and-clickPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wjn.jpg"
+  },
+  {
+    "Nome": "Tacoma",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tge.jpg"
+  },
+  {
+    "Nome": "Tandem A Tale of Shadows",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co42jk.jpg"
+  },
+  {
+    "Nome": "Tannenberg",
+    "Genero": "IndieShooterSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c7p.jpg"
+  },
+  {
+    "Nome": "Team Fortress 2",
+    "Genero": "Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qlk.jpg"
+  },
+  {
+    "Nome": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "Genero": "ArcadeHack and slash/Beat 'em upIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w87.jpg"
+  },
+  {
+    "Nome": "Tell Me Why",
+    "Genero": "Adventure",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9clf.jpg"
+  },
+  {
+    "Nome": "Terraformers",
+    "Genero": "IndieSimulatorStrategyTurn-based strategy (TBS)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4q0a.jpg"
+  },
+  {
+    "Nome": "TerraTech",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coalaw.jpg"
+  },
+  {
+    "Nome": "The Abandoned Planet",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65gt.jpg"
+  },
+  {
+    "Nome": "The Beast Inside",
+    "Genero": "AdventureIndie",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20uk.jpg"
+  },
+  {
+    "Nome": "The Callisto Protocol",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ymo.jpg"
+  },
+  {
+    "Nome": "The Coma 2: Vicious Sisters",
+    "Genero": "AdventureIndieStrategyVisual Novel",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob66g.jpg"
+  },
+  {
+    "Nome": "The Dream Machine",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28sj.jpg"
+  },
+  {
+    "Nome": "The Elder Scrolls II: Daggerfall",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yan.jpg"
+  },
+  {
+    "Nome": "The Elder Scrolls IV: Oblivion - Game of the Year Edition Deluxe",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ymf.jpg"
+  },
+  {
+    "Nome": "The Elder Scrolls Online",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nt3.jpg"
+  },
+  {
+    "Nome": "The Elder Scrolls: Arena",
+    "Genero": "Role-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2knc.jpg"
+  },
+  {
+    "Nome": "The Escapists 2",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)SimulatorStrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2frb.jpg"
+  },
+  {
+    "Nome": "The Eternal Cylinder",
+    "Genero": "Adventure",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1omg.jpg"
+  },
+  {
+    "Nome": "The Evil Within",
+    "Genero": "AdventurePuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wgs.jpg"
+  },
+  {
+    "Nome": "The Evil Within 2",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wgu.jpg"
+  },
+  {
+    "Nome": "The Evil Within 2",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wgu.jpg"
+  },
+  {
+    "Nome": "The Falconeer",
+    "Genero": "AdventureIndieRole-playing (RPG)ShooterSimulator",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "The Falconeer",
+    "Genero": "AdventureIndieRole-playing (RPG)ShooterSimulator",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "The Forest",
+    "Genero": "AdventureIndiePuzzleSimulator",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ld1.jpg"
+  },
+  {
+    "Nome": "The Forest Quartet",
+    "Genero": "AdventureIndieMusicPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wxw.jpg"
+  },
+  {
+    "Nome": "The Gap",
+    "Genero": "Indie",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fbk.jpg"
+  },
+  {
+    "Nome": "The Gunk",
+    "Genero": "Adventure",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49u0.jpg"
+  },
+  {
+    "Nome": "The King of Fighters 2000",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9elj.jpg"
+  },
+  {
+    "Nome": "The King of Fighters 2002",
+    "Genero": "Fighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3xw1.jpg"
+  },
+  {
+    "Nome": "The King of Fighters 2002 Unlimited Match",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1m.jpg"
+  },
+  {
+    "Nome": "The King of Fighters 2003",
+    "Genero": "Fighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p0y.jpg"
+  },
+  {
+    "Nome": "The King of Fighters '97 Global Match",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uei.jpg"
+  },
+  {
+    "Nome": "The King of Fighters '98 Ultimate Match",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p2i.jpg"
+  },
+  {
+    "Nome": "The Last Blade",
+    "Genero": "",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23d7.jpg"
+  },
+  {
+    "Nome": "The Last Blade 2",
+    "Genero": "ArcadeFighting",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23d7.jpg"
+  },
+  {
+    "Nome": "The Last Stand: Aftermath",
+    "Genero": "AdventureIndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s5g.jpg"
+  },
+  {
+    "Nome": "The Lord of The Rings Return to Moria",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7a7g.jpg"
+  },
+  {
+    "Nome": "The Lullaby of Life",
+    "Genero": "AdventureMusicPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tcy.jpg"
+  },
+  {
+    "Nome": "The Night of the Rabbit",
+    "Genero": "AdventureIndiePoint-and-clickPuzzleStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrz.jpg"
+  },
+  {
+    "Nome": "The Outer Worlds",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eew.jpg"
+  },
+  {
+    "Nome": "The Outer Worlds: Spacer's Choice Edition",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co68wu.jpg"
+  },
+  {
+    "Nome": "The Sims 4",
+    "Genero": "Role-playing (RPG)Simulator",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "The Sims 4",
+    "Genero": "Role-playing (RPG)Simulator",
+    "Fonte": "EA",
+    "coverUrl": null
+  },
+  {
+    "Nome": "The Smurfs 2 - The Prisoner of the Green Stone",
+    "Genero": "AdventurePlatformRole-playing (RPG)Shooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7cc1.jpg"
+  },
+  {
+    "Nome": "The Stillness of the Wind",
+    "Genero": "AdventureIndieSimulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l3e.jpg"
+  },
+  {
+    "Nome": "The Talos Principle: Gold Edition",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9daa.jpg"
+  },
+  {
+    "Nome": "The Vanishing of Ethan Carter",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7q.jpg"
+  },
+  {
+    "Nome": "The Vanishing of Ethan Carter Redux",
+    "Genero": "AdventureIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2foj.jpg"
+  },
+  {
+    "Nome": "The Whisperer",
+    "Genero": "AdventureIndiePoint-and-click",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6x3e.jpg"
+  },
+  {
+    "Nome": "The Witcher Goodies Collection",
+    "Genero": "",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "The Witcher: Enhanced Edition",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Thea 2: The Shattering",
+    "Genero": "IndieRole-playing (RPG)StrategyTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hj6.jpg"
+  },
+  {
+    "Nome": "Thief",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rom.jpg"
+  },
+  {
+    "Nome": "THIEF: Definitive Edition",
+    "Genero": "Adventure",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8tc.jpg"
+  },
+  {
+    "Nome": "Tiny Robots Recharged",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3yz2.jpg"
+  },
+  {
+    "Nome": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co483m.jpg"
+  },
+  {
+    "Nome": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co483m.jpg"
+  },
+  {
+    "Nome": "Tiny Tina's Wonderlands",
+    "Genero": "AdventureRole-playing (RPG)Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co390m.jpg"
+  },
+  {
+    "Nome": "Titan Quest Anniversary Edition",
+    "Genero": "Hack and slash/Beat 'em upRole-playing (RPG)",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ird.jpg"
+  },
+  {
+    "Nome": "Titan Souls",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xo0.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's Ghost Recon",
+    "Genero": "Shooter",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39y6.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's Splinter Cell",
+    "Genero": "ShooterTactical",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95r1.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's Splinter Cell Blacklist",
+    "Genero": "AdventureShooterTactical",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ygp.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's Splinter Cell Chaos Theory",
+    "Genero": "ShooterTactical",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95rb.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's The Division",
+    "Genero": "AdventureRole-playing (RPG)ShooterStrategyTactical",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yvf.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's The Division 2",
+    "Genero": "AdventureRole-playing (RPG)ShooterTactical",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrm.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's The Division 2",
+    "Genero": "AdventureRole-playing (RPG)ShooterTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrm.jpg"
+  },
+  {
+    "Nome": "Tom Clancy's The Division 2 PTS",
+    "Genero": "",
+    "Fonte": "Ubisoft",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Tom Clancy's The Division PTS",
+    "Genero": "",
+    "Fonte": "Steam Family",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Tomb Raider",
+    "Genero": "AdventurePlatformPuzzleShooter",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lq1.jpg"
+  },
+  {
+    "Nome": "Tomb Raider - The Last Revelation",
+    "Genero": "AdventurePuzzleShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3hbt.jpg"
+  },
+  {
+    "Nome": "Tomb Raider Chronicles",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fnm.jpg"
+  },
+  {
+    "Nome": "Tomb Raider GAME OF THE YEAR EDITION",
+    "Genero": "AdventurePlatformPuzzleShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h8v.jpg"
+  },
+  {
+    "Nome": "Tomb Raider GOTY",
+    "Genero": "AdventurePlatformPuzzleShooter",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "Genero": "AdventurePuzzleShooterStrategy",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Tomb Raider: Anniversary",
+    "Genero": "AdventurePlatformShooterSimulatorStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8mz7.jpg"
+  },
+  {
+    "Nome": "Tomb Raider: Legend",
+    "Genero": "AdventurePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nnv.jpg"
+  },
+  {
+    "Nome": "Tomb Raider: The Angel of Darkness",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3lq1.jpg"
+  },
+  {
+    "Nome": "Tomb Raider: Underworld",
+    "Genero": "AdventurePlatformShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voc.jpg"
+  },
+  {
+    "Nome": "Tools Up!",
+    "Genero": "AdventureArcadeIndieSimulator",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpp.jpg"
+  },
+  {
+    "Nome": "Tools Up!",
+    "Genero": "AdventureArcadeIndieSimulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpp.jpg"
+  },
+  {
+    "Nome": "Top Hunter: Roddy & Cathy",
+    "Genero": "Hack and slash/Beat 'em upPlatform",
+    "Fonte": "Amazon",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Torchlight II",
+    "Genero": "AdventureHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25z8.jpg"
+  },
+  {
+    "Nome": "Total War: THREE KINGDOMS",
+    "Genero": "Real Time Strategy (RTS)StrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ucz.jpg"
+  },
+  {
+    "Nome": "Total War: WARHAMMER",
+    "Genero": "Real Time Strategy (RTS)Role-playing (RPG)StrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaecf.jpg"
+  },
+  {
+    "Nome": "Total War: WARHAMMER II",
+    "Genero": "Real Time Strategy (RTS)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rsu.jpg"
+  },
+  {
+    "Nome": "Total War: WARHAMMER III",
+    "Genero": "Real Time Strategy (RTS)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaecf.jpg"
+  },
+  {
+    "Nome": "Totally Reliable Delivery Service",
+    "Genero": "AdventureIndieRacingSimulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajx.jpg"
+  },
+  {
+    "Nome": "Train Valley 2",
+    "Genero": "IndiePuzzleSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qps.jpg"
+  },
+  {
+    "Nome": "Transmissions: Element 120",
+    "Genero": "IndieShooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ap2.jpg"
+  },
+  {
+    "Nome": "Trek to Yomi",
+    "Genero": "AdventureHack and slash/Beat 'em upIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p88.jpg"
+  },
+  {
+    "Nome": "Trine 2: Complete Story",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qsn.jpg"
+  },
+  {
+    "Nome": "Trine 3: The Artifacts of Power",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1s88.jpg"
+  },
+  {
+    "Nome": "Trine 4: Definitive Edition",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9x0v.jpg"
+  },
+  {
+    "Nome": "Trine Enchanted Edition",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coards.jpg"
+  },
+  {
+    "Nome": "Trinity Fusion",
+    "Genero": "FightingIndiePlatformRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5bh3.jpg"
+  },
+  {
+    "Nome": "Tropico 4",
+    "Genero": "Real Time Strategy (RTS)SimulatorStrategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ace.jpg"
+  },
+  {
+    "Nome": "Trüberbrook",
+    "Genero": "AdventureIndiePoint-and-clickPuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8x8q.jpg"
+  },
+  {
+    "Nome": "Tunche",
+    "Genero": "AdventureArcadeFightingHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48xg.jpg"
+  },
+  {
+    "Nome": "Tunche",
+    "Genero": "AdventureArcadeFightingHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48xg.jpg"
+  },
+  {
+    "Nome": "Turnip Boy Commits Tax Evasion",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kc1.jpg"
+  },
+  {
+    "Nome": "Two Point Hospital",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5q0n.jpg"
+  },
+  {
+    "Nome": "Two Point Hospital",
+    "Genero": "IndieSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5q0n.jpg"
+  },
+  {
+    "Nome": "Tyranny - Gold Edition",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d1v.jpg"
+  },
+  {
+    "Nome": "Tyranny - Gold Edition Pack",
+    "Genero": "",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Ultima Worlds of Adventure 2: Martian Dreams",
+    "Genero": "Role-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4atv.jpg"
+  },
+  {
+    "Nome": "Ultimate Epic Battle Simulator",
+    "Genero": "AdventureIndieSimulatorStrategy",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rrx.jpg"
+  },
+  {
+    "Nome": "Unbound: Worlds Apart",
+    "Genero": "AdventureIndiePlatformPuzzleRole-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1k9c.jpg"
+  },
+  {
+    "Nome": "Under The Moon",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co81yu.jpg"
+  },
+  {
+    "Nome": "Undying",
+    "Genero": "AdventureIndieRole-playing (RPG)Strategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9e7w.jpg"
+  },
+  {
+    "Nome": "Unrailed!",
+    "Genero": "ArcadeIndie",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jx0.jpg"
+  },
+  {
+    "Nome": "Vampyr",
+    "Genero": "AdventureRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8lrg.jpg"
+  },
+  {
+    "Nome": "Venba",
+    "Genero": "AdventureIndiePuzzleSimulatorVisual Novel",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6vn4.jpg"
+  },
+  {
+    "Nome": "Verdun",
+    "Genero": "IndieShooterSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24l6.jpg"
+  },
+  {
+    "Nome": "Viewfinder",
+    "Genero": "AdventureIndiePlatformPuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaev1.jpg"
+  },
+  {
+    "Nome": "Wall World",
+    "Genero": "AdventureArcadeFightingIndiePlatformRole-playing (RPG)ShooterStrategy",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vq6.jpg"
+  },
+  {
+    "Nome": "Warface: Clutch",
+    "Genero": "AdventureRole-playing (RPG)ShooterSimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaxs1.jpg"
+  },
+  {
+    "Nome": "Wargame: Red Dragon",
+    "Genero": "IndieReal Time Strategy (RTS)SimulatorStrategy",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rka.jpg"
+  },
+  {
+    "Nome": "Warhammer 40,000: Chaos Gate",
+    "Genero": "StrategyTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h40.jpg"
+  },
+  {
+    "Nome": "Warhammer 40,000: Gladius - Relics of War",
+    "Genero": "StrategyTurn-based strategy (TBS)",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6p58.jpg"
+  },
+  {
+    "Nome": "Warhammer 40,000: Mechanicus - Standard Edition",
+    "Genero": "StrategyTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Warhammer 40,000: Space Marine",
+    "Genero": "Role-playing (RPG)Shooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tx9.jpg"
+  },
+  {
+    "Nome": "Warhammer Skulls 2022 - Digital Goodie Pack goodies",
+    "Genero": "",
+    "Fonte": "GOG",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Warhammer: Vermintide 2",
+    "Genero": "AdventureIndieRole-playing (RPG)Shooter",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u8.jpg"
+  },
+  {
+    "Nome": "Warpips",
+    "Genero": "IndieReal Time Strategy (RTS)StrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yv8.jpg"
+  },
+  {
+    "Nome": "Watch Dogs 2",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p3j.jpg"
+  },
+  {
+    "Nome": "WATCH_DOGS 2",
+    "Genero": "AdventureShooter",
+    "Fonte": "Ubisoft",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p3j.jpg"
+  },
+  {
+    "Nome": "We Were Here",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Steam",
+    "coverUrl": null
+  },
+  {
+    "Nome": "We Were Here Expeditions: The FriendShip",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co72yn.jpg"
+  },
+  {
+    "Nome": "We Were Here Together",
+    "Genero": "AdventureIndiePuzzle",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7q7h.jpg"
+  },
+  {
+    "Nome": "Weird West: Definitive Edition",
+    "Genero": "AdventureIndieRole-playing (RPG)Simulator",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6qx7.jpg"
+  },
+  {
+    "Nome": "Windbound",
+    "Genero": "AdventureIndieRole-playing (RPG)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co243m.jpg"
+  },
+  {
+    "Nome": "Witch It",
+    "Genero": "IndieShooter",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Wolfenstein: The New Order",
+    "Genero": "AdventureShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21c0.jpg"
+  },
+  {
+    "Nome": "Wolfenstein: The New Order",
+    "Genero": "AdventureShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21c0.jpg"
+  },
+  {
+    "Nome": "Wonder Boy: The Dragon's Trap",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Steam",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4q.jpg"
+  },
+  {
+    "Nome": "Wonder Boy: The Dragon's Trap",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4q.jpg"
+  },
+  {
+    "Nome": "World War Z",
+    "Genero": "Shooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co265e.jpg"
+  },
+  {
+    "Nome": "Worlds of Ultima: The Savage Empire",
+    "Genero": "Role-playing (RPG)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4atz.jpg"
+  },
+  {
+    "Nome": "Worms Armageddon",
+    "Genero": "PlatformShooterStrategy",
+    "Fonte": "Steam Family",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3hel.jpg"
+  },
+  {
+    "Nome": "Worms Revolution Gold Edition",
+    "Genero": "FightingStrategyTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qai.jpg"
+  },
+  {
+    "Nome": "WRC 7 FIA World Rally Championship",
+    "Genero": "RacingSport",
+    "Fonte": "Amazon",
+    "coverUrl": null
+  },
+  {
+    "Nome": "WRC 8 FIA World Rally Championship",
+    "Genero": "ArcadeRacingSimulatorSport",
+    "Fonte": "Amazon",
+    "coverUrl": null
+  },
+  {
+    "Nome": "WRC 9",
+    "Genero": "RacingSimulatorSport",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e57.jpg"
+  },
+  {
+    "Nome": "Wytchwood",
+    "Genero": "AdventureIndiePuzzleRole-playing (RPG)Simulator",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27gm.jpg"
+  },
+  {
+    "Nome": "XCOM 2",
+    "Genero": "Role-playing (RPG)SimulatorStrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g41.jpg"
+  },
+  {
+    "Nome": "XCOM 2",
+    "Genero": "Role-playing (RPG)SimulatorStrategyTacticalTurn-based strategy (TBS)",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g41.jpg"
+  },
+  {
+    "Nome": "XIII",
+    "Genero": "PuzzleShooter",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ciy.jpg"
+  },
+  {
+    "Nome": "X-Morph: Defense Complete Edition",
+    "Genero": "Strategy",
+    "Fonte": "GOG",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3cel.jpg"
+  },
+  {
+    "Nome": "Yars: Recharged",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59jy.jpg"
+  },
+  {
+    "Nome": "Yooka-Laylee",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4v.jpg"
+  },
+  {
+    "Nome": "Yooka-Laylee and the Impossible Lair",
+    "Genero": "AdventureIndiePlatform",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z9b.jpg"
+  },
+  {
+    "Nome": "Young Souls",
+    "Genero": "AdventureFightingHack and slash/Beat 'em upIndieRole-playing (RPG)",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kal.jpg"
+  },
+  {
+    "Nome": "Zero Hour",
+    "Genero": "ShooterSimulatorStrategyTactical",
+    "Fonte": "Epic",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27qh.jpg"
+  },
+  {
+    "Nome": "Zombie Army 4 Dead War",
+    "Genero": "ArcadeShooter",
+    "Fonte": "Epic",
+    "coverUrl": null
+  },
+  {
+    "Nome": "Zombies Ate My Neighbors and Ghoul Patrol",
+    "Genero": "AdventureArcadePlatformShooter",
+    "Fonte": "Amazon",
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3056.jpg"
+  }
+]
