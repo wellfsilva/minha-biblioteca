@@ -1,9 +1,3 @@
-
-Compreendido. Realizei a mesclagem inversa: utilizei o arquivo que contém os metadados completos (**Gênero** e **Fonte**) como base e preenchi as lacunas de `coverUrl` utilizando as informações do segundo arquivo.
-
-Aqui está o arquivo completo e atualizado, mantendo todas as tags:
-
-```json
 [
   {
     "Nome": "12 is Better Than 6",
