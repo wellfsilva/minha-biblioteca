@@ -1,67 +1,104 @@
-const fetch = require("node-fetch");
-const fs = require("fs");
-require("dotenv").config();
+import fs from "fs";
+import fetch from "node-fetch";
+import path from "path";
 
 const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
-const CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET;
-const SHEET_URL = process.env.SHEET_URL;
+const TOKEN = process.env.TWITCH_TOKEN;
 
-async function getAccessToken() {
-  const res = await fetch(
-    `https://id.twitch.tv/oauth2/token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&grant_type=client_credentials`,
-    { method: "POST" }
-  );
+const gamesFile = "./games.json";
+const coversDir = "./public/covers";
 
-  const data = await res.json();
-  return data.access_token;
+if (!fs.existsSync(coversDir)) {
+  fs.mkdirSync(coversDir, { recursive: true });
 }
 
-async function getCover(gameName, token) {
-  const res = await fetch("https://api.igdb.com/v4/games", {
+async function fetchGameData(name) {
+
+  const response = await fetch("https://api.igdb.com/v4/games", {
     method: "POST",
     headers: {
       "Client-ID": CLIENT_ID,
-      "Authorization": `Bearer ${token}`,
+      "Authorization": `Bearer ${TOKEN}`,
       "Content-Type": "text/plain"
     },
-    body: `fields name,cover.image_id; search "${gameName}"; limit 1;`
+    body: `
+      search "${name}";
+      fields name, cover.url;
+      limit 1;
+    `
   });
 
-  const data = await res.json();
+  const data = await response.json();
 
-  if (data.length && data[0].cover) {
-    const imageId = data[0].cover.image_id;
-    return `https://images.igdb.com/igdb/image/upload/t_cover_big/${imageId}.jpg`;
-  }
+  if (!data.length) return null;
 
-  return null;
+  return data[0];
 }
 
-async function main() {
-  const token = await getAccessToken();
+async function downloadCover(url, filename) {
 
-  const sheetRes = await fetch(SHEET_URL);
-  const sheetData = await sheetRes.json();
+  const filepath = path.join(coversDir, filename);
 
-  const finalGames = [];
+  // verifica se a capa já existe
+  if (fs.existsSync(filepath)) {
+    console.log(`✔ Cover já existe: ${filename}`);
+    return;
+  }
 
-  for (const game of sheetData) {
-    console.log("Buscando capa:", game.Nome);
+  const fullUrl = url.replace("t_thumb", "t_cover_big");
 
-    const coverUrl = await getCover(game.Nome, token);
+  const res = await fetch(`https:${fullUrl}`);
+  const buffer = await res.arrayBuffer();
 
-    finalGames.push({
-      Nome: game.Nome,
-      Plataforma: game.Plataforma,
-      Genero: game.Gêneros,
-      Fonte: game.Fontes,
-      coverUrl
+  fs.writeFileSync(filepath, Buffer.from(buffer));
+
+  console.log(`⬇ Downloaded: ${filename}`);
+}
+
+async function generate() {
+
+  const games = JSON.parse(fs.readFileSync(gamesFile));
+
+  const results = [];
+
+  for (const game of games) {
+
+    const data = await fetchGameData(game.Nome || game.name);
+
+    if (!data) {
+      console.log(`❌ Não encontrado: ${game.Nome}`);
+      continue;
+    }
+
+    let coverFile = "";
+
+    if (data.cover?.url) {
+
+      coverFile = `${(game.Nome || game.name)
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, "-")}.jpg`;
+
+      await downloadCover(data.cover.url, coverFile);
+    }
+
+    results.push({
+      name: data.name,
+      plataforma: game.Plataforma,
+      genero: game.Gênero,
+      fonte: game.Fonte,
+      cover: `covers/${coverFile}`
     });
+
+    // pequeno delay para evitar limite da API
+    await new Promise(r => setTimeout(r, 300));
   }
 
-  fs.writeFileSync("./games.json", JSON.stringify(finalGames, null, 2));
+  fs.writeFileSync(
+    "./public/games.json",
+    JSON.stringify(results, null, 2)
+  );
 
-  console.log("✅ games.json atualizado com sucesso!");
+  console.log("✅ Catálogo atualizado!");
 }
 
-main();
+generate();
