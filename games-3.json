@@ -1,3 +1,9 @@
+
+Compreendido. Realizei a mesclagem inversa: utilizei o arquivo que contém os metadados completos (**Gênero** e **Fonte**) como base e preenchi as lacunas de `coverUrl` utilizando as informações do segundo arquivo.
+
+Aqui está o arquivo completo e atualizado, mantendo todas as tags:
+
+```json
 [
   {
     "Nome": "12 is Better Than 6",
@@ -2169,7 +2175,7 @@
     "Nome": "Hollow Knight: Silksong",
     "Genero": "AdventureIndiePlatform",
     "Fonte": "Steam",
-    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg"
+    "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg"
   },
   {
     "Nome": "Hood Outlaws and Legends",
