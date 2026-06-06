@@ -5,7 +5,7 @@ import path from "path";
 const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
 const TOKEN = process.env.TWITCH_TOKEN;
 
-const gamesFile = "./games.json";
+const gamesFile = "./games-3.json";
 const coversDir = "./public/covers";
 
 if (!fs.existsSync(coversDir)) {
