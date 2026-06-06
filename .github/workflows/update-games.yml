@@ -1,5 +1,8 @@
 name: Atualizar Biblioteca
 
+permissions:
+  contents: write
+
 on:
 
   schedule:
