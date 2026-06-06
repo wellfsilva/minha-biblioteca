@@ -7,7 +7,7 @@ async function generate() {
 
   if (fs.existsSync("./public/games-3.json")) {
     existingGames = JSON.parse(
-      fs.readFileSync("./public/games.json", "utf8")
+      fs.readFileSync("./public/games-3.json", "utf8")
     );
 
     console.log(
@@ -102,7 +102,7 @@ async function generate() {
   }
 
   fs.writeFileSync(
-    "./public/games.json",
+    "./public/games-3.json",
     JSON.stringify(results, null, 2)
   );
 
