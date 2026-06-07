@@ -1,5 +1,3 @@
-    
-
 name: Atualizar Biblioteca
 
 permissions:
@@ -7,75 +5,34 @@ permissions:
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '0 12 * * 0'
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-
-      # Baixa o conteúdo do repositório
       - name: Baixar repositório
         uses: actions/checkout@v4
 
-      # Instala Node.js
       - name: Instalar Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
 
-      # Diagnóstico (pode remover depois)
-      - name: Mostrar arquivos do repositório
-        run: |
-          echo "Diretório atual:"
-          pwd
-
-          echo ""
-          echo "Arquivos encontrados:"
-          ls -la
-
-      # Instala dependências do package.json
       - name: Instalar dependências
         run: npm install
 
-      # Diagnóstico dos secrets (pode remover depois)
-      - name: Verificar Secrets
-        env:
-          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
-          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-        run: |
-          echo "CLIENT_ID definido?"
-          if [ -n "$TWITCH_CLIENT_ID" ]; then
-            echo "SIM"
-          else
-            echo "NAO"
-          fi
-
-          echo "CLIENT_SECRET definido?"
-          if [ -n "$TWITCH_CLIENT_SECRET" ]; then
-            echo "SIM"
-          else
-            echo "NAO"
-          fi
-
-      # Executa generate.js    
       - name: Atualizar catálogo
         env:
-          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
-          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
         run: node generate.js
 
-      # Commit apenas se houve alteração
       - name: Commit automático
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git add games-3.json
-
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add games.json
           git diff --cached --quiet || git commit -m "Atualização automática da biblioteca"
-
           git push
