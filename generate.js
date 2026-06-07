@@ -9,6 +9,7 @@ async function generate() {
     existingGames = JSON.parse(
       fs.readFileSync("./public/games-3.json", "utf8")
     );
+  }
 
     console.log(
       `📦 Cache carregado: ${existingGames.length} jogos`
@@ -21,7 +22,7 @@ async function generate() {
   existingGames.forEach(game => {
 
     const key =
-      `${game.name}|${game.fonte}`
+      `${game.Nome}|${game.Fonte}`
         .toLowerCase()
         .trim();
 
@@ -45,11 +46,11 @@ async function generate() {
       const cachedGame = cacheMap.get(cacheKey);
 
       results.push({
-        name: cachedGame.name,
-        plataforma: game.Plataforma,
-        genero: game.Gênero,
-        fonte: game.Fonte,
-        cover: cachedGame.cover
+        Nome: game.Nome,
+        Plataforma: game.Plataforma || "",
+        Genero: game.Genero || game.Gênero || "",
+        Fonte: game.Fonte || "",
+        coverUrl: cachedGame.coverUrl || null
       });
 
       console.log(`✔ Cache: ${gameName}`);
@@ -88,11 +89,13 @@ async function generate() {
     }
 
     results.push({
-      name: data.name,
-      plataforma: game.Plataforma,
-      genero: game.Gênero,
-      fonte: game.Fonte,
-      cover: `covers/${coverFile}`
+      Nome: game.Nome,
+      Plataforma: game.Plataforma || "",
+      Genero: game.Genero || game.Gênero || "",
+      Fonte: game.Fonte || "",
+      coverUrl: data.cover?.url
+        ? `https:${data.cover.url.replace("t_thumb", "t_cover_big")}`
+        : null
     });
 
     // evita limite da API

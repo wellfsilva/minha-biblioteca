@@ -40,7 +40,7 @@ const storeConfig = {
 let games = [];
 
 // 🔹 Carrega JSON
-fetch("https://wellfsilva.github.io/minha-biblioteca/games-3.json")
+fetch("./public/games-3.json")
   .then(res => res.json())
   .then(data => {
     games = data || [];
@@ -93,7 +93,7 @@ function renderSourceFilters(games) {
 
     label.innerHTML = `
       <input type="checkbox" value="${source}" class="source-checkbox">
-      <span class="store-tag" style="boder:1px solid ${config.color}">
+      <span class="store-tag" style="border:1px solid ${config.color}">
         ${config.icon ? `<img class="icon" src="${config.icon}" />` : ""}
         ${source}
       </span>
