@@ -416,28 +416,28 @@
     "Nome": "Battlefield 1",
     "Plataforma": "",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ab9.jpg"
   },
   {
     "Nome": "Battlefield 3",
     "Plataforma": "",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
     "Nome": "Battlefield 4",
     "Plataforma": "",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nmf.jpg"
   },
   {
     "Nome": "Battlefield V",
     "Plataforma": "",
     "Genero": "Shooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbv.jpg"
   },
   {
@@ -1018,14 +1018,14 @@
     "Nome": "Crash Bandicoot N. Sane Trilogy",
     "Plataforma": "",
     "Genero": "Platform",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg"
   },
   {
     "Nome": "Crash Team Racing Nitro-Fueled",
     "Plataforma": "",
     "Genero": "ArcadeRacing",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p89.jpg"
   },
   {
@@ -1179,7 +1179,7 @@
     "Nome": "Dead Space 2",
     "Plataforma": "",
     "Genero": "AdventureShooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co715m.jpg"
   },
   {
@@ -1438,7 +1438,7 @@
     "Nome": "Donkey Kong Country Tropical Freeze",
     "Plataforma": "",
     "Genero": "Platform",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pmi.jpg"
   },
   {
@@ -1501,14 +1501,14 @@
     "Nome": "Dragon Age: Inquisition",
     "Plataforma": "",
     "Genero": "AdventureRole-playing (RPG)Tactical",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvy.jpg"
   },
   {
     "Nome": "Dragon Age: Inquisition - Game of the Year Edition",
     "Plataforma": "",
     "Genero": "AdventureRole-playing (RPG)Tactical",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw0.jpg"
   },
   {
@@ -2334,7 +2334,7 @@
     "Nome": "GRID Legends",
     "Plataforma": "",
     "Genero": "RacingSimulatorSport",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gvq.jpg"
   },
   {
@@ -2586,7 +2586,7 @@
     "Nome": "Hollow Knight",
     "Plataforma": "",
     "Genero": "AdventureIndiePlatform",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaes9.jpg"
   },
   {
@@ -2810,7 +2810,7 @@
     "Nome": "It Takes Two",
     "Plataforma": "",
     "Genero": "AdventurePlatformPuzzle",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob22v.jpg"
   },
   {
@@ -3181,7 +3181,7 @@
     "Nome": "Madden NFL 22",
     "Plataforma": "",
     "Genero": "SimulatorSportStrategy",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a7l.jpg"
   },
   {
@@ -3258,7 +3258,7 @@
     "Nome": "Mario Kart 8 Deluxe",
     "Plataforma": "",
     "Genero": "ArcadeRacing",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ydc.jpg"
   },
   {
@@ -3286,7 +3286,7 @@
     "Nome": "Mass Effect Legendary Edition",
     "Plataforma": "",
     "Genero": "AdventureRole-playing (RPG)ShooterStrategy",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k5h.jpg"
   },
   {
@@ -3433,7 +3433,7 @@
     "Nome": "Metroid Dread",
     "Plataforma": "",
     "Genero": "AdventurePlatformShooter",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co935n.jpg"
   },
   {
@@ -3629,14 +3629,14 @@
     "Nome": "Need for Speed Heat",
     "Plataforma": "",
     "Genero": "AdventureRacingSport",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j7z.jpg"
   },
   {
     "Nome": "Need for Speed Hot Pursuit Remastered",
     "Plataforma": "",
     "Genero": "Racing",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nhk.jpg"
   },
   {
@@ -3965,7 +3965,7 @@
     "Nome": "Plants vs Zombies: Battle for Neighborville",
     "Plataforma": "",
     "Genero": "",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3isd.jpg"
   },
   {
@@ -4882,7 +4882,7 @@
     "Nome": "STAR WARS Battlefront II",
     "Plataforma": "",
     "Genero": "AdventureShooter",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1g4.jpg"
   },
   {
@@ -4917,7 +4917,7 @@
     "Nome": "STAR WARS Jedi: Fallen Order",
     "Plataforma": "",
     "Genero": "Adventure",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.jpg"
   },
   {
@@ -4966,7 +4966,7 @@
     "Nome": "STAR WARS: Squadrons",
     "Plataforma": "",
     "Genero": "ShooterSimulator",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlz.jpg"
   },
   {
@@ -5127,7 +5127,7 @@
     "Nome": "Super Mario 3D World Bowsers Fury",
     "Plataforma": "",
     "Genero": "AdventurePlatform",
-    "Fonte": "Nintendo",
+    "Fonte": "Switch",
     "coverUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobb2d.jpg"
   },
   {
@@ -5526,7 +5526,7 @@
     "Nome": "The Sims 4",
     "Plataforma": "",
     "Genero": "Role-playing (RPG)Simulator",
-    "Fonte": "EA app",
+    "Fonte": "EA",
     "coverUrl": null
   },
   {
