@@ -18,17 +18,20 @@ jobs:
 
     steps:
 
-      - name: Baixar repositório
-        uses: actions/checkout@v4
-
-      - name: Instalar Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-
       - name: Instalar dependências
         run: npm install
-
+      
+      - name: Verificar Secrets
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: |
+          echo "CLIENT_ID definido?"
+          if [ -n "$TWITCH_CLIENT_ID" ]; then echo "SIM"; else echo "NAO"; fi
+      
+          echo "CLIENT_SECRET definido?"
+          if [ -n "$TWITCH_CLIENT_SECRET" ]; then echo "SIM"; else echo "NAO"; fi
+      
       - name: Executar geração
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
