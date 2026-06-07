@@ -33,10 +33,10 @@ jobs:
           echo "TWITCH_CLIENT_SECRET recebido: $TWITCH_CLIENT_SECRET"
           node generate.js
 
-      - name: Commit automático
+          - name: Commit automático
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add games.json
-          git diff --cached --quiet || git commit -m "Atualização automática da biblioteca"
-          git push
+          git add games-3.json
+          git commit -m "Atualização automática da biblioteca" || echo "Nenhuma alteração para commitar"
+          git push origin main
