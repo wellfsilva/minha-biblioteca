@@ -61,18 +61,7 @@ jobs:
             echo "NAO"
           fi
 
-      # Executa generate.js
-      - name: Mostrar variáveis do ambiente
-            env:
-          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
-          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-          run: |
-            echo "CLIENT_ID:"
-            [ -n "$TWITCH_CLIENT_ID" ] && echo "SIM" || echo "NAO"
-            
-            echo "CLIENT_SECRET:"
-            [ -n "$TWITCH_CLIENT_SECRET" ] && echo "SIM" || echo "NAO"
-    
+      # Executa generate.js    
       - name: Atualizar catálogo
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
