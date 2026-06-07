@@ -5,10 +5,25 @@ require("dotenv").config();
 const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
 const TOKEN = process.env.TWITCH_TOKEN;
 
-const gamesFile = "./games-3.json";
+const SHEET_URL =
+  "https://opensheet.elk.sh/1_YJy2GkrbkD6hpWd18whfSXklwGY2WPr3kgbQaQYdnM/jogos";
+
+const GAMES_FILE = "./games-3.json";
+
+if (!CLIENT_ID || !TOKEN) {
+  console.error(
+    "❌ TWITCH_CLIENT_ID ou TWITCH_TOKEN não configurados."
+  );
+  process.exit(1);
+}
 
 async function fetchGameData(name) {
+
   try {
+
+    const safeName =
+      name.replace(/"/g, '\\"');
+
     const response = await fetch(
       "https://api.igdb.com/v4/games",
       {
@@ -19,7 +34,7 @@ async function fetchGameData(name) {
           "Content-Type": "text/plain"
         },
         body: `
-          search "${name}";
+          search "${safeName}";
           fields name,cover.url;
           limit 1;
         `
@@ -27,25 +42,25 @@ async function fetchGameData(name) {
     );
 
     if (!response.ok) {
-      console.error(
-        `Erro IGDB (${response.status}) para ${name}`
+
+      console.log(
+        `❌ Erro IGDB (${response.status}) - ${name}`
       );
+
       return null;
     }
 
-    const data = await response.json();
+    const data =
+      await response.json();
 
-    if (!data.length) {
-      return null;
-    }
-
-    return data[0];
+    return data.length
+      ? data[0]
+      : null;
 
   } catch (error) {
 
-    console.error(
-      `Erro ao consultar IGDB para ${name}:`,
-      error.message
+    console.log(
+      `❌ Erro ao consultar ${name}`
     );
 
     return null;
@@ -54,78 +69,169 @@ async function fetchGameData(name) {
 
 async function generate() {
 
-  if (!fs.existsSync(gamesFile)) {
-
-    console.error(
-      `Arquivo não encontrado: ${gamesFile}`
-    );
-
-    return;
-  }
-
-  const games = JSON.parse(
-    fs.readFileSync(gamesFile, "utf8")
+  console.log(
+    "📥 Baixando planilha..."
   );
 
-  let updatedCount = 0;
+  const sheetResponse =
+    await fetch(SHEET_URL);
 
-  for (const game of games) {
+  const sheetGames =
+    await sheetResponse.json();
 
-    // Já possui capa
+  console.log(
+    `📚 ${sheetGames.length} jogos encontrados na planilha`
+  );
+
+  let existingGames = [];
+
+  if (
+    fs.existsSync(GAMES_FILE)
+  ) {
+
+    existingGames =
+      JSON.parse(
+        fs.readFileSync(
+          GAMES_FILE,
+          "utf8"
+        )
+      );
+  }
+
+  console.log(
+    `📦 ${existingGames.length} jogos encontrados no cache`
+  );
+
+  const cacheMap =
+    new Map();
+
+  existingGames.forEach(game => {
+
+    const key =
+      `${game.Nome}|${game.Fonte}`
+        .toLowerCase()
+        .trim();
+
+    cacheMap.set(key, game);
+  });
+
+  const results = [];
+
+  let newGames = 0;
+
+  for (const sheetGame of sheetGames) {
+
+    const nome =
+      sheetGame.Nome?.trim();
+
+    const genero =
+      sheetGame.Genero ||
+      sheetGame.Gênero ||
+      "";
+
+    const plataforma =
+      sheetGame.Plataforma ||
+      "";
+
+    const fonte =
+      sheetGame.Fonte ||
+      "";
+
+    if (!nome) continue;
+
+    const key =
+      `${nome}|${fonte}`
+        .toLowerCase()
+        .trim();
+
+    // Jogo já existe
     if (
-      game.coverUrl &&
-      game.coverUrl.trim() !== ""
+      cacheMap.has(key)
     ) {
 
-      console.log(
-        `✔ Já possui capa: ${game.Nome}`
-      );
+      const cached =
+        cacheMap.get(key);
+
+      results.push({
+        Nome: nome,
+        Plataforma: plataforma,
+        Genero: genero,
+        Fonte: fonte,
+        coverUrl:
+          cached.coverUrl || null
+      });
 
       continue;
     }
 
+    newGames++;
+
     console.log(
-      `🔍 Procurando capa: ${game.Nome}`
+      `🔍 Novo jogo: ${nome}`
     );
+
+    let coverUrl = null;
 
     const data =
-      await fetchGameData(game.Nome);
+      await fetchGameData(nome);
 
-    if (!data?.cover?.url) {
+    if (
+      data?.cover?.url
+    ) {
+
+      coverUrl =
+        `https:${data.cover.url.replace(
+          "t_thumb",
+          "t_cover_big"
+        )}`;
 
       console.log(
-        `❌ Não encontrado: ${game.Nome}`
+        `✅ Capa encontrada`
       );
 
-      continue;
+    } else {
+
+      console.log(
+        `⚠ Sem capa`
+      );
     }
 
-    game.coverUrl =
-      `https:${data.cover.url.replace(
-        "t_thumb",
-        "t_cover_big"
-      )}`;
+    results.push({
+      Nome: nome,
+      Plataforma: plataforma,
+      Genero: genero,
+      Fonte: fonte,
+      coverUrl
+    });
 
-    updatedCount++;
-
-    console.log(
-      `✅ Capa encontrada: ${game.Nome}`
-    );
-
-    // Evita atingir limite da API
     await new Promise(
-      resolve => setTimeout(resolve, 300)
+      resolve =>
+        setTimeout(
+          resolve,
+          300
+        )
     );
   }
 
   fs.writeFileSync(
-    gamesFile,
-    JSON.stringify(games, null, 2),
-    "utf8"
+    GAMES_FILE,
+    JSON.stringify(
+      results,
+      null,
+      2
+    )
   );
 
   console.log(
-    `🎉 Atualização concluída! ${updatedCount} jogos atualizados.`
+    `🎉 Biblioteca atualizada`
+  );
+
+  console.log(
+    `📚 Total: ${results.length}`
+  );
+
+  console.log(
+    `🆕 Novos jogos: ${newGames}`
   );
 }
 
