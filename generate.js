@@ -11,10 +11,9 @@ async function generate() {
     );
   }
 
-    console.log(
-      `📦 Cache carregado: ${existingGames.length} jogos`
-    );
-  }
+  console.log(
+    `📦 Cache carregado: ${existingGames.length} jogos`
+  );
 
   // Índice rápido
   const cacheMap = new Map();
@@ -112,4 +111,6 @@ async function generate() {
   console.log(
     `✅ Catálogo atualizado (${results.length} jogos)`
   );
-}
+  }
+
+  generate();
