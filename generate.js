@@ -3,21 +3,37 @@ const fetch = require("node-fetch");
 require("dotenv").config();
 
 const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
-const TOKEN = process.env.TWITCH_TOKEN;
+const CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET;
 
 const SHEET_URL =
   "https://opensheet.elk.sh/1_YJy2GkrbkD6hpWd18whfSXklwGY2WPr3kgbQaQYdnM/jogos";
 
 const GAMES_FILE = "./games-3.json";
 
-if (!CLIENT_ID || !TOKEN) {
-  console.error(
-    "❌ TWITCH_CLIENT_ID ou TWITCH_TOKEN não configurados."
+async function getTwitchToken() {
+
+  console.log("🔑 Obtendo token da Twitch...");
+
+  const response = await fetch(
+    `https://id.twitch.tv/oauth2/token?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&grant_type=client_credentials`,
+    {
+      method: "POST"
+    }
   );
-  process.exit(1);
+
+  if (!response.ok) {
+
+    throw new Error(
+      `Erro ao gerar token Twitch (${response.status})`
+    );
+  }
+
+  const data = await response.json();
+
+  return data.access_token;
 }
 
-async function fetchGameData(name) {
+async function fetchGameData(name, token) {
 
   try {
 
@@ -30,7 +46,7 @@ async function fetchGameData(name) {
         method: "POST",
         headers: {
           "Client-ID": CLIENT_ID,
-          "Authorization": `Bearer ${TOKEN}`,
+          "Authorization": `Bearer ${token}`,
           "Content-Type": "text/plain"
         },
         body: `
@@ -60,7 +76,7 @@ async function fetchGameData(name) {
   } catch (error) {
 
     console.log(
-      `❌ Erro ao consultar ${name}`
+      `❌ Falha ao consultar ${name}`
     );
 
     return null;
@@ -69,8 +85,20 @@ async function fetchGameData(name) {
 
 async function generate() {
 
+  if (!CLIENT_ID || !CLIENT_SECRET) {
+
+    console.error(
+      "❌ TWITCH_CLIENT_ID ou TWITCH_CLIENT_SECRET não configurados."
+    );
+
+    process.exit(1);
+  }
+
+  const token =
+    await getTwitchToken();
+
   console.log(
-    "📥 Baixando planilha..."
+    "📥 Carregando planilha..."
   );
 
   const sheetResponse =
@@ -124,6 +152,8 @@ async function generate() {
     const nome =
       sheetGame.Nome?.trim();
 
+    if (!nome) continue;
+
     const genero =
       sheetGame.Genero ||
       sheetGame.Gênero ||
@@ -137,14 +167,12 @@ async function generate() {
       sheetGame.Fonte ||
       "";
 
-    if (!nome) continue;
-
     const key =
       `${nome}|${fonte}`
         .toLowerCase()
         .trim();
 
-    // Jogo já existe
+    // Mantém capa existente
     if (
       cacheMap.has(key)
     ) {
@@ -172,15 +200,18 @@ async function generate() {
 
     let coverUrl = null;
 
-    const data =
-      await fetchGameData(nome);
+    const gameData =
+      await fetchGameData(
+        nome,
+        token
+      );
 
     if (
-      data?.cover?.url
+      gameData?.cover?.url
     ) {
 
       coverUrl =
-        `https:${data.cover.url.replace(
+        `https:${gameData.cover.url.replace(
           "t_thumb",
           "t_cover_big"
         )}`;
@@ -208,7 +239,7 @@ async function generate() {
       resolve =>
         setTimeout(
           resolve,
-          300
+          350
         )
     );
   }
@@ -219,20 +250,26 @@ async function generate() {
       results,
       null,
       2
-    )
+    ),
+    "utf8"
   );
 
+  console.log("");
+  console.log("🎉 Biblioteca atualizada!");
   console.log(
-    `🎉 Biblioteca atualizada`
+    `📚 Total de jogos: ${results.length}`
   );
-
   console.log(
-    `📚 Total: ${results.length}`
-  );
-
-  console.log(
-    `🆕 Novos jogos: ${newGames}`
+    `🆕 Jogos novos encontrados: ${newGames}`
   );
 }
 
-generate();
+generate().catch(error => {
+
+  console.error(
+    "❌ Erro fatal:",
+    error.message
+  );
+
+  process.exit(1);
+});
