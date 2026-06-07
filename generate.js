@@ -8,8 +8,17 @@ if (process.env.GITHUB_ACTIONS !== "true") {
 const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
 const CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET;
 
-console.log("CLIENT_ID:", !!CLIENT_ID);
-console.log("CLIENT_SECRET:", !!CLIENT_SECRET);
+console.log("GITHUB_ACTIONS:", process.env.GITHUB_ACTIONS);
+
+console.log(
+  "TWITCH_CLIENT_ID recebido:",
+  process.env.TWITCH_CLIENT_ID ? "SIM" : "NAO"
+);
+
+console.log(
+  "TWITCH_CLIENT_SECRET recebido:",
+  process.env.TWITCH_CLIENT_SECRET ? "SIM" : "NAO"
+);
 
 const SHEET_URL =
   "https://opensheet.elk.sh/1_YJy2GkrbkD6hpWd18whfSXklwGY2WPr3kgbQaQYdnM/jogos";
