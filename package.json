@@ -1,10 +1,11 @@
 {
   "name": "minha-biblioteca",
   "version": "1.0.0",
-  "description": "",
+  "description": "Biblioteca de jogos integrada com IGDB",
   "main": "generate.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "node generate.js",
+    "test": "echo \"No tests configured\""
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   "bugs": {
     "url": "https://github.com/wellfsilva/minha-biblioteca/issues"
   },
-  "homepage": "https://github.com/wellfsilva/minha-biblioteca#readme",
+  "homepage": "https://wellfsilva.github.io/minha-biblioteca/",
+  "engines": {
+    "node": ">=24"
+  },
   "dependencies": {
     "dotenv": "^17.3.1",
     "node-fetch": "^2.7.0"
