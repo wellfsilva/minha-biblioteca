@@ -20,6 +20,11 @@ jobs:
 
       - name: Instalar dependências
         run: npm install
+
+      - name: Mostrar arquivos do repositório
+        run: |
+          pwd
+          ls -la
       
       - name: Verificar Secrets
         env:
