@@ -40,7 +40,7 @@ const storeConfig = {
 let games = [];
 
 // 🔹 Carrega JSON
-fetch("./public/games-3.json")
+fetch("./games-3.json")
   .then(res => res.json())
   .then(data => {
     games = data || [];
