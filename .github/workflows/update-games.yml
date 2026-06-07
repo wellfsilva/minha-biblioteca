@@ -31,8 +31,8 @@ jobs:
 
       - name: Executar geração
         env:
-          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
-          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        console.log("CLIENT_ID:", !!process.env.TWITCH_CLIENT_ID);
+        console.log("CLIENT_SECRET:", !!process.env.TWITCH_CLIENT_SECRET);
         run: node generate.js
 
       - name: Commit automático
