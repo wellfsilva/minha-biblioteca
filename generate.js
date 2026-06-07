@@ -1,116 +1,132 @@
+const fs = require("fs");
+const fetch = require("node-fetch");
+require("dotenv").config();
+
+const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
+const TOKEN = process.env.TWITCH_TOKEN;
+
+const gamesFile = "./games-3.json";
+
+async function fetchGameData(name) {
+  try {
+    const response = await fetch(
+      "https://api.igdb.com/v4/games",
+      {
+        method: "POST",
+        headers: {
+          "Client-ID": CLIENT_ID,
+          "Authorization": `Bearer ${TOKEN}`,
+          "Content-Type": "text/plain"
+        },
+        body: `
+          search "${name}";
+          fields name,cover.url;
+          limit 1;
+        `
+      }
+    );
+
+    if (!response.ok) {
+      console.error(
+        `Erro IGDB (${response.status}) para ${name}`
+      );
+      return null;
+    }
+
+    const data = await response.json();
+
+    if (!data.length) {
+      return null;
+    }
+
+    return data[0];
+
+  } catch (error) {
+
+    console.error(
+      `Erro ao consultar IGDB para ${name}:`,
+      error.message
+    );
+
+    return null;
+  }
+}
+
 async function generate() {
 
-  const games = JSON.parse(fs.readFileSync(gamesFile));
+  if (!fs.existsSync(gamesFile)) {
 
-  // Carrega cache existente
-  let existingGames = [];
-
-  if (fs.existsSync("./public/games-3.json")) {
-    existingGames = JSON.parse(
-      fs.readFileSync("./public/games-3.json", "utf8")
+    console.error(
+      `Arquivo não encontrado: ${gamesFile}`
     );
+
+    return;
   }
 
-  console.log(
-    `📦 Cache carregado: ${existingGames.length} jogos`
+  const games = JSON.parse(
+    fs.readFileSync(gamesFile, "utf8")
   );
 
-  // Índice rápido
-  const cacheMap = new Map();
-
-  existingGames.forEach(game => {
-
-    const key =
-      `${game.Nome}|${game.Fonte}`
-        .toLowerCase()
-        .trim();
-
-    cacheMap.set(key, game);
-  });
-
-  const results = [];
+  let updatedCount = 0;
 
   for (const game of games) {
 
-    const gameName = game.Nome || game.name;
-
-    const cacheKey =
-      `${gameName}|${game.Fonte}`
-        .toLowerCase()
-        .trim();
-
-    // ✔ Jogo já existe no cache
-    if (cacheMap.has(cacheKey)) {
-
-      const cachedGame = cacheMap.get(cacheKey);
-
-      results.push({
-        Nome: game.Nome,
-        Plataforma: game.Plataforma || "",
-        Genero: game.Genero || game.Gênero || "",
-        Fonte: game.Fonte || "",
-        coverUrl: cachedGame.coverUrl || null
-      });
-
-      console.log(`✔ Cache: ${gameName}`);
-
-      continue;
-    }
-
-    // 🔍 Novo jogo
-    console.log(`🔍 Novo jogo: ${gameName}`);
-
-    const data = await fetchGameData(gameName);
-
-    if (!data) {
+    // Já possui capa
+    if (
+      game.coverUrl &&
+      game.coverUrl.trim() !== ""
+    ) {
 
       console.log(
-        `❌ Não encontrado: ${gameName}`
+        `✔ Já possui capa: ${game.Nome}`
       );
 
       continue;
     }
 
-    let coverFile = "";
+    console.log(
+      `🔍 Procurando capa: ${game.Nome}`
+    );
 
-    if (data.cover?.url) {
+    const data =
+      await fetchGameData(game.Nome);
 
-      coverFile =
-        gameName
-          .toLowerCase()
-          .replace(/[^a-z0-9]/g, "-")
-          + ".jpg";
+    if (!data?.cover?.url) {
 
-      await downloadCover(
-        data.cover.url,
-        coverFile
+      console.log(
+        `❌ Não encontrado: ${game.Nome}`
       );
+
+      continue;
     }
 
-    results.push({
-      Nome: game.Nome,
-      Plataforma: game.Plataforma || "",
-      Genero: game.Genero || game.Gênero || "",
-      Fonte: game.Fonte || "",
-      coverUrl: data.cover?.url
-        ? `https:${data.cover.url.replace("t_thumb", "t_cover_big")}`
-        : null
-    });
+    game.coverUrl =
+      `https:${data.cover.url.replace(
+        "t_thumb",
+        "t_cover_big"
+      )}`;
 
-    // evita limite da API
-    await new Promise(r =>
-      setTimeout(r, 300)
+    updatedCount++;
+
+    console.log(
+      `✅ Capa encontrada: ${game.Nome}`
+    );
+
+    // Evita atingir limite da API
+    await new Promise(
+      resolve => setTimeout(resolve, 300)
     );
   }
 
   fs.writeFileSync(
-    "./public/games-3.json",
-    JSON.stringify(results, null, 2)
+    gamesFile,
+    JSON.stringify(games, null, 2),
+    "utf8"
   );
 
   console.log(
-    `✅ Catálogo atualizado (${results.length} jogos)`
+    `🎉 Atualização concluída! ${updatedCount} jogos atualizados.`
   );
-  }
+}
 
-  generate();
+generate();
