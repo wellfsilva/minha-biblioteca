@@ -6,7 +6,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * 0' # roda todo domingo às 12h
+    - cron: '0 12 * * 0'
 
 jobs:
   update:
@@ -18,7 +18,7 @@ jobs:
       - name: Instalar Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # versão LTS estável
+          node-version: 22
 
       - name: Instalar dependências
         run: npm install
@@ -27,8 +27,11 @@ jobs:
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-          SHEET_ID: ${{ secrets.SHEET_ID }} # se o generate.js também usa o ID da planilha
-        run: node generate.js
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: |
+          echo "TWITCH_CLIENT_ID recebido: $TWITCH_CLIENT_ID"
+          echo "TWITCH_CLIENT_SECRET recebido: $TWITCH_CLIENT_SECRET"
+          node generate.js
 
       - name: Commit automático
         run: |
