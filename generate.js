@@ -1,9 +1,15 @@
 const fs = require("fs");
 const fetch = require("node-fetch");
-require("dotenv").config();
 
-console.log("CLIENT_ID:", !!process.env.TWITCH_CLIENT_ID);
-console.log("CLIENT_SECRET:", !!process.env.TWITCH_CLIENT_SECRET);
+if (process.env.GITHUB_ACTIONS !== "true") {
+  require("dotenv").config();
+}
+
+const CLIENT_ID = process.env.TWITCH_CLIENT_ID;
+const CLIENT_SECRET = process.env.TWITCH_CLIENT_SECRET;
+
+console.log("CLIENT_ID:", !!CLIENT_ID);
+console.log("CLIENT_SECRET:", !!CLIENT_SECRET);
 
 const SHEET_URL =
   "https://opensheet.elk.sh/1_YJy2GkrbkD6hpWd18whfSXklwGY2WPr3kgbQaQYdnM/jogos";
